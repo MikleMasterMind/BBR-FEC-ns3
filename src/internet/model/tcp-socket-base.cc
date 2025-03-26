@@ -321,6 +321,8 @@ TcpSocketBase::TcpSocketBase (void)
   m_rxBuffer = CreateObject<TcpRxBuffer> ();
   m_txBuffer = CreateObject<TcpTxBuffer> ();
   m_tcb      = CreateObject<TcpSocketState> ();
+  // my change
+  m_fec = new Fec();
 
   m_tcb->m_currentPacingRate = m_tcb->m_maxPacingRate;
   m_pacingTimer.SetFunction (&TcpSocketBase::NotifyPacingPerformed, this);
@@ -404,7 +406,9 @@ TcpSocketBase::TcpSocketBase (const TcpSocketBase& sock)
     m_ecnMode (sock.m_ecnMode),
     m_ecnEchoSeq (sock.m_ecnEchoSeq),
     m_ecnCESeq (sock.m_ecnCESeq),
-    m_ecnCWRSeq (sock.m_ecnCWRSeq)
+    m_ecnCWRSeq (sock.m_ecnCWRSeq),
+    // my change
+    m_fec (sock.m_fec)
 {
   NS_LOG_FUNCTION (this);
   NS_LOG_LOGIC ("Invoked the copy constructor");
@@ -487,6 +491,9 @@ TcpSocketBase::~TcpSocketBase (void)
     }
   m_tcp = 0;
   CancelAllTimers ();
+
+  // my change
+  delete m_fec;
 }
 
 /* Associate a node with this TCP socket */
@@ -841,6 +848,9 @@ TcpSocketBase::Send (Ptr<Packet> p, uint32_t flags)
   NS_ABORT_MSG_IF (flags, "use of flags is not supported in TcpSocketBase::Send()");
   if (m_state == ESTABLISHED || m_state == SYN_SENT || m_state == CLOSE_WAIT)
     {
+      // print my code here
+      
+
       // Store the packet into Tx buffer
       if (!m_txBuffer->Add (p))
         { // TxBuffer overflow, send failed
@@ -3314,6 +3324,8 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
   NS_LOG_DEBUG ("Data segment, seq=" << tcpHeader.GetSequenceNumber () <<
                 " pkt size=" << p->GetSize () );
 
+  // print my code here
+  
   // Put into Rx buffer
   SequenceNumber32 expectedSeq = m_rxBuffer->NextRxSequence ();
   if (!m_rxBuffer->Add (p, tcpHeader))

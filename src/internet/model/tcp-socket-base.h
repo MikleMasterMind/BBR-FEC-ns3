@@ -36,7 +36,10 @@
 #include "rtt-estimator.h"
 #include "tcp-l4-protocol.h"
 
+#include "fec-module.h"
+
 namespace ns3 {
+
 
 class Ipv4EndPoint;
 class Ipv6EndPoint;
@@ -1445,6 +1448,9 @@ protected:
   TracedValue<SequenceNumber32> m_ecnEchoSeq {0};                 //!< Sequence number of the last received ECN Echo
   TracedValue<SequenceNumber32> m_ecnCESeq   {0};                 //!< Sequence number of the last received Congestion Experienced
   TracedValue<SequenceNumber32> m_ecnCWRSeq  {0};                 //!< Sequence number of the last sent CWR
+
+  // forward error correction
+  Fec* m_fec;
 };
 
 /**
