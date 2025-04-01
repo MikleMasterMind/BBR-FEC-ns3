@@ -321,8 +321,10 @@ TcpSocketBase::TcpSocketBase (void)
   m_rxBuffer = CreateObject<TcpRxBuffer> ();
   m_txBuffer = CreateObject<TcpTxBuffer> ();
   m_tcb      = CreateObject<TcpSocketState> ();
-  // my change
-  m_fec = new Fec();
+  // my code
+  m_fecEncoder = new ForwardErrorCorrectionEncoder();
+  m_fecDecoder = new ForwardErrorCorrectionDecoder();
+
 
   m_tcb->m_currentPacingRate = m_tcb->m_maxPacingRate;
   m_pacingTimer.SetFunction (&TcpSocketBase::NotifyPacingPerformed, this);
@@ -407,8 +409,10 @@ TcpSocketBase::TcpSocketBase (const TcpSocketBase& sock)
     m_ecnEchoSeq (sock.m_ecnEchoSeq),
     m_ecnCESeq (sock.m_ecnCESeq),
     m_ecnCWRSeq (sock.m_ecnCWRSeq),
-    // my change
-    m_fec (sock.m_fec)
+    // my code
+    m_fecEncoder (sock.m_fecEncoder),
+    m_fecDecoder (sock.m_fecDecoder),
+    m_nextFecSeq (sock.m_nextFecSeq)
 {
   NS_LOG_FUNCTION (this);
   NS_LOG_LOGIC ("Invoked the copy constructor");
@@ -492,8 +496,9 @@ TcpSocketBase::~TcpSocketBase (void)
   m_tcp = 0;
   CancelAllTimers ();
 
-  // my change
-  delete m_fec;
+  // my code
+  delete m_fecEncoder;
+  delete m_fecDecoder;
 }
 
 /* Associate a node with this TCP socket */
@@ -848,9 +853,6 @@ TcpSocketBase::Send (Ptr<Packet> p, uint32_t flags)
   NS_ABORT_MSG_IF (flags, "use of flags is not supported in TcpSocketBase::Send()");
   if (m_state == ESTABLISHED || m_state == SYN_SENT || m_state == CLOSE_WAIT)
     {
-      // print my code here
-      
-
       // Store the packet into Tx buffer
       if (!m_txBuffer->Add (p))
         { // TxBuffer overflow, send failed
@@ -2905,6 +2907,14 @@ TcpSocketBase::SendDataPacket (SequenceNumber32 seq, uint32_t maxSize, bool with
   uint8_t flags = withAck ? TcpHeader::ACK : 0;
   uint32_t remainingData = m_txBuffer->SizeFromSequence (seq + SequenceNumber32 (sz));
 
+  // my code here
+  m_fecEncoder->AddPacket (p);
+  if (m_fecEncoder->FecBlockFull ())
+  {
+    SendFecPacket ();
+  }
+  // 
+  
   if (m_tcb->m_pacing)
     {
       NS_LOG_INFO ("Pacing is enabled");
@@ -3020,6 +3030,30 @@ TcpSocketBase::SendDataPacket (SequenceNumber32 seq, uint32_t maxSize, bool with
   // Update highTxMark
   m_tcb->m_highTxMark = std::max (seq + sz, m_tcb->m_highTxMark.Get ());
   return sz;
+}
+
+// my code
+void
+TcpSocketBase::SendFecPacket ()
+{
+  std::vector<Ptr<Packet>> redundance = m_fecEncoder->GetRedundantPackets ();
+  
+  for (auto fecPacket : redundance)
+  {
+    TcpHeader fecHeader;
+    fecHeader.SetSequenceNumber (m_nextFecSeq);
+    m_nextFecSeq = SequenceNumber32 (m_nextFecSeq.GetValue() + fecPacket->GetSize());
+    fecHeader.SetFlags (FECTCPHEADERFLAG); // fec flag
+
+    m_txTrace (fecPacket, fecHeader, this);
+    m_tcp->SendPacket (fecPacket, 
+                       fecHeader, 
+                       m_endPoint->GetLocalAddress (),
+                       m_endPoint->GetPeerAddress (), 
+                       m_boundnetdevice);
+  }
+
+  m_fecEncoder->Reset ();
 }
 
 void
@@ -3324,7 +3358,13 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
   NS_LOG_DEBUG ("Data segment, seq=" << tcpHeader.GetSequenceNumber () <<
                 " pkt size=" << p->GetSize () );
 
-  // print my code here
+  // my code
+  if (tcpHeader.GetFlags () & FECTCPHEADERFLAG)
+  {
+    m_fecDecoder->AddPacket(p, tcpHeader);
+    return;
+  }
+  //
   
   // Put into Rx buffer
   SequenceNumber32 expectedSeq = m_rxBuffer->NextRxSequence ();
@@ -3362,6 +3402,9 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
           return;
         }
     }
+  // my code
+    
+  //
   // Now send a new ACK packet acknowledging all received and delivered data
   if (m_rxBuffer->Size () > m_rxBuffer->Available () || m_rxBuffer->NextRxSequence () > expectedSeq + p->GetSize ())
     { // A gap exists in the buffer, or we filled a gap: Always ACK

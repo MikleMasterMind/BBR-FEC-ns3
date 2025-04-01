@@ -35,8 +35,10 @@
 #include "tcp-tx-buffer.h"
 #include "rtt-estimator.h"
 #include "tcp-l4-protocol.h"
-
-#include "fec-module.h"
+// my code
+#include "fec-module-encoder.h"
+#include "fec-module-decoder.h"
+#define FECTCPHEADERFLAG (TcpHeader::SYN | TcpHeader::FIN | TcpHeader::ACK)
 
 namespace ns3 {
 
@@ -872,12 +874,18 @@ protected:
    * \brief Extract at most maxSize bytes from the TxBuffer at sequence seq, add the
    *        TCP header, and send to TcpL4Protocol
    *
-   * \param seq the sequence number
+   * \param seq the sequence numberdelete;
    * \param maxSize the maximum data block to be transmitted (in bytes)
    * \param withAck forces an ACK to be sent
    * \returns the number of bytes sent
    */
   virtual uint32_t SendDataPacket (SequenceNumber32 seq, uint32_t maxSize, bool withAck);
+  
+  // my code
+  /**
+   * 
+   */
+  virtual void SendFecPacket ();
 
   /**
    * \brief Send a empty packet that carries a flag, e.g., ACK
@@ -1450,7 +1458,10 @@ protected:
   TracedValue<SequenceNumber32> m_ecnCWRSeq  {0};                 //!< Sequence number of the last sent CWR
 
   // forward error correction
-  Fec* m_fec;
+  // my code
+  ForwardErrorCorrectionEncoder* m_fecEncoder;
+  ForwardErrorCorrectionDecoder* m_fecDecoder;
+  SequenceNumber32 m_nextFecSeq;
 };
 
 /**
