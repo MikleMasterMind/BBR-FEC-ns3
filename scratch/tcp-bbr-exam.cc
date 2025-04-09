@@ -221,14 +221,16 @@ int main (int argc, char *argv[])
   std::string access_delay = "1ms";
   std::string transport_prot = "TcpBbr";
   TcpBbr::BbrVar variant = TcpBbr::BBR_V2;
-  std::string varstr = WhichVariant (variant);
+  std::string varstr = WhichVariant (variant) + "-";
   std::string scenario = "1";
-  bool ecn = true;
+  bool ecn = false;
   bool exp = false;
   double lambda = 1.0/2.0;
   bool pcap = false;
   bool cubic = false;
   bool vegas = false;
+  // my code
+  int redundancy = 0;
 
   if (variant == TcpBbr::BBR_HSR)
     {
@@ -239,11 +241,11 @@ int main (int argc, char *argv[])
     {
       if (ecn)
         {
-          varstr += "-ECN";
+          varstr += "ECN";
         }
       if (exp)
         { 
-          varstr += "-EXP";
+          varstr += "EXP";
         }
     }
 
@@ -287,7 +289,15 @@ int main (int argc, char *argv[])
                 "TcpHybla, TcpHighSpeed, TcpHtcp, TcpVegas, TcpScalable, TcpVeno, "
                 "TcpBic, TcpYeah, TcpIllinois, TcpWestwood, TcpWestwoodPlus, TcpLedbat, "
                 "TcpLp, TcpBbr", transport_prot);
+  // my code
+  cmd.AddValue ("ecn", "true, false", ecn);
+  cmd.AddValue ("redundancy", "", redundancy);
+  //
   cmd.Parse (argc,argv);
+
+  // my code
+  // LogComponentEnable ("TcpSocketBase", LOG_LEVEL_FUNCTION);
+  //
 
   // Calculate the ADU size
   Header* temp_header = new Ipv4Header ();
@@ -362,8 +372,8 @@ int main (int argc, char *argv[])
   pointToPointLeaf.SetDeviceAttribute    ("DataRate", StringValue (access_bandwidth));
   pointToPointLeaf.SetChannelAttribute   ("Delay", StringValue (access_delay));
 
-  PointToPointDumbbellHelper d (nLeaf + 1, pointToPointLeaf,
-                            nLeaf + 1, pointToPointLeaf,
+  PointToPointDumbbellHelper d (nLeaf, pointToPointLeaf,
+                            nLeaf, pointToPointLeaf,
                             pointToPointRouter);
   // Install Stack
   InternetStackHelper stack;
@@ -481,6 +491,9 @@ int main (int argc, char *argv[])
   myfile << "minRto " << minRto << "\n";
   myfile << "transport_prot " << transport_prot << "\n";
   myfile << "variant" << varstr << "\n";
+  // my code
+  myfile << "redundancy " << redundancy << "\n";
+  //
   myfile.close();
 
   Simulator::Stop (Seconds (stop_time + 1));
@@ -493,6 +506,7 @@ int main (int argc, char *argv[])
       Ptr <PacketSink> pktSink = DynamicCast <PacketSink> (app);
       totalRxBytesCounter += pktSink->GetTotalRx ();
     }
+
   std::cout << "\nGoodput Bytes/sec: "  << totalRxBytesCounter/Simulator::Now ().GetSeconds () << "\n";
 
   monitor->CheckForLostPackets ();

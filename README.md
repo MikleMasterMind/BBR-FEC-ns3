@@ -35,3 +35,5 @@ Congfigurable Variables:
 ``exp`` - Experimental changes (BBRv2)  
 ``cubic`` - Enable Cubic flow  
 ``vegas`` - Enable Vegas flow  
+
+example: ``./waf --run "scratch/tcp-bbr-exam --nLeaf=2 --bandwidth=10Mbps --delay=10ms --qSize=20"``
