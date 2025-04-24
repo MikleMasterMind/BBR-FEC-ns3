@@ -35,5 +35,24 @@ Congfigurable Variables:
 ``exp`` - Experimental changes (BBRv2)  
 ``cubic`` - Enable Cubic flow  
 ``vegas`` - Enable Vegas flow  
+``redundancy`` - Amount of redundant packets in one fec block
 
-example: ``./waf --run "scratch/tcp-bbr-exam --nLeaf=2 --bandwidth=10Mbps --delay=10ms --qSize=20"``
+example: ``./waf --run "scratch/tcp-bbr-exam --nLeaf=1 --bandwidth=10Mbps --delay=10ms --qSize=20 --redundancy=2"``
+
+
+### ToDo
+[x] Номера избыточных пакетов
+
+[x] Визуализация результатов
+
+[x] Настройка избыточности
+
+[] отправка избыточных пакетов
+
+[] ACK на избыточные пакеты
+
+[] Проблема пакета из другого блока
+
+[] FIN последнего блока
+
+[] Вычисление индексов потерянных пакетов при последовательной передаче

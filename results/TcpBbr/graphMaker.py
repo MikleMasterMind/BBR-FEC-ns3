@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 import logging
 from typing import Dict, Optional, Tuple, List
+import sys
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -142,7 +143,7 @@ def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path) -> N
 
 def main(path : str):
     # Создаем регулярную сетку: 0-10 сек с шагом 0.1 мс (0.0001 сек)
-    time_grid = np.arange(0, 10.31, 0.00001)
+    time_grid = np.arange(0, 200.31, 0.001)
     
     # Путь к данным (замените на ваш)
     data_directory = Path(path)
@@ -164,4 +165,5 @@ def main(path : str):
     logger.info("Обработка завершена")
 
 if __name__ == "__main__":
-    main("09-04-2025-08-06-53-BBR_V2-10Mbps-10ms-1.500000")
+    mydir = sys.argv[1]
+    main(mydir)

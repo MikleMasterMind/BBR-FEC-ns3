@@ -1,66 +1,120 @@
 #include "ns3/fec-module-encoder.h"
 #include "ns3/core-module.h"
+#include "ns3/tcp-option-fec.h"
+
+#define DEBUG
+#include <iostream>
 
 namespace ns3 {
 
-NS_LOG_COMPONENT_DEFINE("ForwardErrorCorrectionEncoderModule");
+NS_LOG_COMPONENT_DEFINE ("ForwardErrorCorrectionEncoderModule");
 
-// Регистрация модуля
-NS_OBJECT_ENSURE_REGISTERED(ForwardErrorCorrectionEncoder);
+NS_OBJECT_ENSURE_REGISTERED (ForwardErrorCorrectionEncoder);
 
 TypeId
-ForwardErrorCorrectionEncoder::GetTypeId(void)
+ForwardErrorCorrectionEncoder::GetTypeId (void)
 {
     static TypeId tid = TypeId("ns3::ForwardErrorCorrectionEncoder")
         .SetParent<Object>()
         .SetGroupName("ForwardErrorCorrectionEncoder")
-        .AddConstructor<ForwardErrorCorrectionEncoder>();
+        .AddConstructor<ForwardErrorCorrectionEncoder>()
+        .AddAttribute ("Redundancy", "Amount of redundant packets in block",
+                       IntegerValue (0),
+                       MakeIntegerAccessor (&ForwardErrorCorrectionEncoder::m_redundancy),
+                       MakeIntegerChecker<int> ());
     return tid;
 }
 
-ForwardErrorCorrectionEncoder::ForwardErrorCorrectionEncoder(void)
+ForwardErrorCorrectionEncoder::ForwardErrorCorrectionEncoder (int redundancy)
+ :  m_curPacketsInBlock (0),
+    m_blockSize (FEC_BLOCK_SIZE),
+    m_redundancy (redundancy),
+    m_prevPayloadSequenceNumber (SequenceNumber32 (0)),
+    m_curFecSequenceNumber (SequenceNumber32 (90))
 {
-  m_block_size = FECBLOCKSIZE;
-  m_redundancy = FECREDUNDANCY;
-  m_cur_packets_in_block = 0;
-
   NS_LOG_FUNCTION (this);
 };
 
-ForwardErrorCorrectionEncoder::ForwardErrorCorrectionEncoder(const ForwardErrorCorrectionEncoder &other) 
-  : m_cur_packets_in_block (other.m_cur_packets_in_block),
-    m_block_size (other.m_block_size),
-    m_redundancy (other.m_redundancy)
-    
+ForwardErrorCorrectionEncoder::ForwardErrorCorrectionEncoder (const ForwardErrorCorrectionEncoder &other) 
+  : m_curPacketsInBlock (other.m_curPacketsInBlock),
+    m_blockSize (other.m_blockSize),
+    m_redundancy (other.m_redundancy),
+    m_prevPayloadSequenceNumber (other.m_prevPayloadSequenceNumber),
+    m_curFecSequenceNumber (other.m_curFecSequenceNumber)
 {
   NS_LOG_FUNCTION (this);
   NS_LOG_LOGIC ("Invoked the copy constructor"); 
 };
 
-void ForwardErrorCorrectionEncoder::AddPacket(const Ptr<Packet> packet)
+void ForwardErrorCorrectionEncoder::AddPacket (const Ptr<Packet> packet, const TcpHeader& tcpHeader)
 {
-  m_cur_packets_in_block += 1;
+  #ifdef DEBUG
+  std::cout << "ForwardErrorCorrectionEncoder Add Packet, Previous " << m_prevPayloadSequenceNumber.GetValue () << " Packet size " << packet->GetSize () << " New Seq " << tcpHeader.GetSequenceNumber ().GetValue () << std::endl;
+  #endif
+  // add first packet in all or usual case
+  if (m_prevPayloadSequenceNumber.GetValue () == 0 || m_prevPayloadSequenceNumber.GetValue () + packet->GetSize () - 32 == tcpHeader.GetSequenceNumber ().GetValue ())
+  {
+    m_fecBlock[m_curPacketsInBlock] = std::make_pair (packet, tcpHeader);
+    m_prevPayloadSequenceNumber = SequenceNumber32(tcpHeader.GetSequenceNumber ().GetValue ());;
+    m_curPacketsInBlock += 1;
+    #ifdef DEBUG
+    std::cout << "ForwardErrorCorrectionEncoder Add Packet success" << std::endl;
+    #endif
+  }
+  else
+  {
+    #ifdef DEBUG
+    std::cout << "ForwardErrorCorrectionEncoder Add Packet not success" << std::endl;
+    #endif
+    return;
+  }
 }
 
-bool ForwardErrorCorrectionEncoder::FecBlockFull()
+bool ForwardErrorCorrectionEncoder::FecBlockFull ()
 {
-  return m_block_size == m_cur_packets_in_block + m_redundancy;
+  #ifdef DEBUG
+  std::cout << "Encoder FecBlockFull " << ((m_blockSize <= m_curPacketsInBlock + m_redundancy) ? "true" : "false") << std::endl;
+  #endif
+  return m_blockSize <= m_curPacketsInBlock + m_redundancy;
 }
 
-std::vector<Ptr<Packet>> ForwardErrorCorrectionEncoder::GetRedundantPackets()
+std::vector<std::pair<Ptr<Packet>, TcpHeader>> ForwardErrorCorrectionEncoder::GetRedundantPackets ()
 {
-  std::vector<Ptr<Packet>> result;
+  #ifdef DEBUG
+  std::cout << "ForwardErrorCorrectionEncoder GetRedundantPackets, current Fec Seq " << m_curFecSequenceNumber.GetValue () << std::endl;
+  #endif
+
+  std::vector<std::pair<Ptr<Packet>, TcpHeader>> result;
+  
+  // dummy packet to send
+  std::string message = "Hello";
+  Ptr<Packet> redundantPacket = Create<Packet>((uint8_t*)message.c_str(), message.size() + 1);
+  TcpHeader redundantHeader = m_fecBlock[0].second;
+  // setFecHeaderFlag (redundantHeader);
   for (int i = 0; i < m_redundancy; ++i)
   {
-    Ptr<Packet> redundant = Create<Packet>(0);
-    result.push_back(redundant);
+    redundantHeader.SetSequenceNumber (m_curFecSequenceNumber);
+    m_curFecSequenceNumber = SequenceNumber32 (m_curFecSequenceNumber.GetValue () + redundantPacket->GetSize ());
+    #ifdef DEBUG
+    std::cout << "ForwardErrorCorrectionEncoder GetRedundantPackets, packet seq to return  " << redundantHeader.GetSequenceNumber ().GetValue () << " fec packet size " << redundantPacket->GetSize () << std::endl;
+    #endif
+    result.push_back (std::make_pair (redundantPacket, redundantHeader));
   }
   return result;
 }
 
-void ForwardErrorCorrectionEncoder::Reset()
+void ForwardErrorCorrectionEncoder::Reset ()
 {
-  m_cur_packets_in_block = 0;
+  #ifdef DEBUG
+  std::cout << "ForwardErrorCorrectionEncoder Reset" << std::endl;
+  #endif
+  m_curPacketsInBlock = 0;
+}
+
+void ForwardErrorCorrectionEncoder::setFecHeaderFlag (TcpHeader &header)
+{
+  Ptr<TcpOptionFec> option = CreateObject<TcpOptionFec> ();
+  header.AppendOption (option);
 }
 
 } // namespace ns3

@@ -58,6 +58,9 @@
 #include <math.h>
 #include <algorithm>
 
+// my code
+#define DEBUG
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("TcpSocketBase");
@@ -322,8 +325,9 @@ TcpSocketBase::TcpSocketBase (void)
   m_txBuffer = CreateObject<TcpTxBuffer> ();
   m_tcb      = CreateObject<TcpSocketState> ();
   // my code
-  m_fecEncoder = new ForwardErrorCorrectionEncoder();
-  m_fecDecoder = new ForwardErrorCorrectionDecoder();
+  m_fecEncoder = CreateObject <ForwardErrorCorrectionEncoder> ();
+  m_fecDecoder = CreateObject <ForwardErrorCorrectionDecoder> ();
+  m_lossInBlock = false;
 
 
   m_tcb->m_currentPacingRate = m_tcb->m_maxPacingRate;
@@ -412,7 +416,8 @@ TcpSocketBase::TcpSocketBase (const TcpSocketBase& sock)
     // my code
     m_fecEncoder (sock.m_fecEncoder),
     m_fecDecoder (sock.m_fecDecoder),
-    m_nextFecSeq (sock.m_nextFecSeq)
+    m_nextFecSeq (sock.m_nextFecSeq),
+    m_lossInBlock (sock.m_lossInBlock)
 {
   NS_LOG_FUNCTION (this);
   NS_LOG_LOGIC ("Invoked the copy constructor");
@@ -495,10 +500,6 @@ TcpSocketBase::~TcpSocketBase (void)
     }
   m_tcp = 0;
   CancelAllTimers ();
-
-  // my code
-  delete m_fecEncoder;
-  delete m_fecDecoder;
 }
 
 /* Associate a node with this TCP socket */
@@ -1527,6 +1528,11 @@ TcpSocketBase::ProcessEstablished (Ptr<Packet> packet, const TcpHeader& tcpHeade
     }
   else if (tcpflags == 0)
     { // No flags means there is only data
+      // my code
+      #ifdef DEBUG
+      std::cout << "TcpSocketBase ProcessEstablished" << std::endl;
+      #endif
+      //
       ReceivedData (packet, tcpHeader);
       if (m_rxBuffer->Finished ())
         {
@@ -1786,6 +1792,11 @@ TcpSocketBase::ReceivedAck (Ptr<Packet> packet, const TcpHeader& tcpHeader)
   // If there is any data piggybacked, store it into m_rxBuffer
   if (packet->GetSize () > 0)
     {
+      // my code
+      #ifdef DEBUG
+      std::cout << "TcpSocketBase ReceivedAck" << std::endl;
+      #endif
+      //
       ReceivedData (packet, tcpHeader);
     }
 }
@@ -2092,6 +2103,11 @@ TcpSocketBase::ProcessSynSent (Ptr<Packet> packet, const TcpHeader& tcpHeader)
       m_connected = true;
       m_retxEvent.Cancel ();
       m_delAckCount = m_delAckMaxCount;
+      // my code
+      #ifdef DEBUG
+      std::cout << "TcpSocketBase ProcessSynSent" << std::endl;
+      #endif
+      //
       ReceivedData (packet, tcpHeader);
       Simulator::ScheduleNow (&TcpSocketBase::ConnectionSucceeded, this);
     }
@@ -2282,6 +2298,11 @@ TcpSocketBase::ProcessWait (Ptr<Packet> packet, const TcpHeader& tcpHeader)
 
   if (packet->GetSize () > 0 && !(tcpflags & TcpHeader::ACK))
     { // Bare data, accept it
+      // my code
+      #ifdef DEBUG
+      std::cout << "TcpSocketBase ProcessWait" << std::endl;
+      #endif
+      //
       ReceivedData (packet, tcpHeader);
     }
   else if (tcpflags == TcpHeader::ACK)
@@ -2386,6 +2407,11 @@ TcpSocketBase::ProcessLastAck (Ptr<Packet> packet, const TcpHeader& tcpHeader)
 
   if (tcpflags == 0)
     {
+      // my code
+      #ifdef DEBUG
+      std::cout << "TcpSocketBase ProcessLastAck" << std::endl;
+      #endif
+      //
       ReceivedData (packet, tcpHeader);
     }
   else if (tcpflags == TcpHeader::ACK)
@@ -2429,6 +2455,11 @@ TcpSocketBase::PeerClose (Ptr<Packet> p, const TcpHeader& tcpHeader)
   // If there is any piggybacked data, process it
   if (p->GetSize ())
     {
+      // my code
+      #ifdef DEBUG
+      std::cout << "TcpSocketBase PeerClose" << std::endl;
+      #endif
+      //
       ReceivedData (p, tcpHeader);
     }
   // Return if FIN is out of sequence, otherwise move to CLOSE_WAIT state by DoPeerClose
@@ -2906,14 +2937,6 @@ TcpSocketBase::SendDataPacket (SequenceNumber32 seq, uint32_t maxSize, bool with
   uint32_t sz = p->GetSize (); // Size of packet
   uint8_t flags = withAck ? TcpHeader::ACK : 0;
   uint32_t remainingData = m_txBuffer->SizeFromSequence (seq + SequenceNumber32 (sz));
-
-  // my code here
-  m_fecEncoder->AddPacket (p);
-  if (m_fecEncoder->FecBlockFull ())
-  {
-    SendFecPacket ();
-  }
-  // 
   
   if (m_tcb->m_pacing)
     {
@@ -3029,31 +3052,64 @@ TcpSocketBase::SendDataPacket (SequenceNumber32 seq, uint32_t maxSize, bool with
   UpdatePacketSent (seq, sz);
   // Update highTxMark
   m_tcb->m_highTxMark = std::max (seq + sz, m_tcb->m_highTxMark.Get ());
+
+  // my code
+  uint32_t fec_size = 0;
+  m_fecEncoder->AddPacket (p, header);
+  if (m_fecEncoder->FecBlockFull ())
+  {
+    fec_size += SendFecPacket ();
+  }
+  //
+
   return sz;
 }
 
 // my code
-void
+uint32_t
 TcpSocketBase::SendFecPacket ()
 {
-  std::vector<Ptr<Packet>> redundance = m_fecEncoder->GetRedundantPackets ();
+  std::vector<std::pair<Ptr<Packet>, TcpHeader>> redundantPackets = m_fecEncoder->GetRedundantPackets ();
   
-  for (auto fecPacket : redundance)
+  #ifdef DEBUG
+  std::cout << "TcpSocketBase SendFecPacket redundantPackets size " << redundantPackets.size () << std::endl;
+  #endif
+  uint32_t size = 0;
+  for (int i = 0; i < (int)redundantPackets.size (); ++i)
   {
-    TcpHeader fecHeader;
-    fecHeader.SetSequenceNumber (m_nextFecSeq);
-    m_nextFecSeq = SequenceNumber32 (m_nextFecSeq.GetValue() + fecPacket->GetSize());
-    fecHeader.SetFlags (FECTCPHEADERFLAG); // fec flag
+    Ptr<Packet> packet = redundantPackets[i].first;
+    TcpHeader header = redundantPackets[i].second;
 
-    m_txTrace (fecPacket, fecHeader, this);
-    m_tcp->SendPacket (fecPacket, 
-                       fecHeader, 
-                       m_endPoint->GetLocalAddress (),
-                       m_endPoint->GetPeerAddress (), 
-                       m_boundnetdevice);
+    header.SetSourcePort (m_endPoint->GetLocalPort ());
+    header.SetDestinationPort (m_endPoint->GetPeerPort ());
+    header.SetWindowSize (AdvertisedWindowSize ());
+
+    size += packet->GetSize ();
+
+    m_txTrace (packet, header, this);
+    if (m_endPoint)
+    {
+      m_tcp->SendPacket (packet, 
+                         header, 
+                         m_endPoint->GetLocalAddress (),
+                         m_endPoint->GetPeerAddress (), 
+                         m_boundnetdevice);
+    }
+    else
+    {
+      m_tcp->SendPacket (packet, 
+                          header, 
+                          m_endPoint6->GetLocalAddress (),
+                          m_endPoint6->GetPeerAddress (),
+                          m_boundnetdevice);
+    }
+    #ifdef DEBUG
+    std::cout << "TcpSocketBase SendFecPacket packet size " << packet->GetSize () << " seq num " << header.GetSequenceNumber ().GetValue () << std::endl;
+    #endif
   }
-
   m_fecEncoder->Reset ();
+
+  return size;
 }
 
 void
@@ -3359,54 +3415,77 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
                 " pkt size=" << p->GetSize () );
 
   // my code
-  if (tcpHeader.GetFlags () & FECTCPHEADERFLAG)
-  {
-    m_fecDecoder->AddPacket(p, tcpHeader);
-    return;
-  }
+  m_fecDecoder->AddPacket(p, tcpHeader);
   //
   
   // Put into Rx buffer
   SequenceNumber32 expectedSeq = m_rxBuffer->NextRxSequence ();
-  if (!m_rxBuffer->Add (p, tcpHeader))
-    { // Insert failed: No data or RX buffer full
-      if (m_tcb->m_ecnState == TcpSocketState::ECN_CE_RCVD || m_tcb->m_ecnState == TcpSocketState::ECN_SENDING_ECE)
-        {
-          SendEmptyPacket (TcpHeader::ACK | TcpHeader::ECE);
-          NS_LOG_DEBUG (TcpSocketState::EcnStateName[m_tcb->m_ecnState] << " -> ECN_SENDING_ECE");
-          m_tcb->m_ecnState = TcpSocketState::ECN_SENDING_ECE;
-        }
-      else
-        {
-          SendEmptyPacket (TcpHeader::ACK);
-        }
-      return;
+
+  // my code 
+  bool receivedSuccess = m_rxBuffer->Add (p, tcpHeader);
+
+  if (!receivedSuccess)
+  {
+    m_lossInBlock = true;
+  }
+
+  if (m_fecDecoder->FecBlockFull ())
+  {
+    if (m_fecDecoder->RecoveryPossible () && m_lossInBlock)
+    {
+      std::vector<std::pair<Ptr<Packet>, TcpHeader>> recoveredPackets = m_fecDecoder->GetRecoveredPackets ();
+      for (int i = 0; i < (int)recoveredPackets.size (); ++i)
+      {
+        Ptr<Packet> recoveredPacket = recoveredPackets[i].first;
+        TcpHeader recoveredHeader = recoveredPackets[i].second;
+        m_rxBuffer->Add (recoveredPacket, recoveredHeader);
+        SendEmptyPacket (TcpHeader::ACK);
+      }
     }
-  // Notify app to receive if necessary
-  if (expectedSeq < m_rxBuffer->NextRxSequence ())
-    { // NextRxSeq advanced, we have something to send to the app
-      if (!m_shutdownRecv)
-        {
-          NotifyDataRecv ();
-        }
-      // Handle exceptions
-      if (m_closeNotified)
-        {
-          NS_LOG_WARN ("Why TCP " << this << " got data after close notification?");
-        }
-      // If we received FIN before and now completed all "holes" in rx buffer,
-      // invoke peer close procedure
-      if (m_rxBuffer->Finished () && (tcpHeader.GetFlags () & TcpHeader::FIN) == 0)
-        {
-          DoPeerClose ();
-          return;
-        }
-    }
-  // my code
-    
+    m_fecDecoder->Reset ();
+  }
   //
-  // Now send a new ACK packet acknowledging all received and delivered data
-  if (m_rxBuffer->Size () > m_rxBuffer->Available () || m_rxBuffer->NextRxSequence () > expectedSeq + p->GetSize ())
+
+  // if (!m_rxBuffer->Add (p, tcpHeader))
+  //   { // Insert failed: No data or RX buffer full
+  //     if (m_tcb->m_ecnState == TcpSocketState::ECN_CE_RCVD || m_tcb->m_ecnState == TcpSocketState::ECN_SENDING_ECE)
+  //       {
+  //         SendEmptyPacket (TcpHeader::ACK | TcpHeader::ECE);
+  //         NS_LOG_DEBUG (TcpSocketState::EcnStateName[m_tcb->m_ecnState] << " -> ECN_SENDING_ECE");
+  //         m_tcb->m_ecnState = TcpSocketState::ECN_SENDING_ECE;
+  //       }
+  //     else
+  //       {
+  //         SendEmptyPacket (TcpHeader::ACK);
+  //       }
+  //     return;
+  //   }
+
+  // my code
+  if (receivedSuccess)
+  {
+    // Notify app to receive if necessary
+    if (expectedSeq < m_rxBuffer->NextRxSequence ())
+      { // NextRxSeq advanced, we have something to send to the app
+        if (!m_shutdownRecv)
+          {
+            NotifyDataRecv ();
+          }
+        // Handle exceptions
+        if (m_closeNotified)
+          {
+            NS_LOG_WARN ("Why TCP " << this << " got data after close notification?");
+          }
+        // If we received FIN before and now completed all "holes" in rx buffer,
+        // invoke peer close procedure
+        if (m_rxBuffer->Finished () && (tcpHeader.GetFlags () & TcpHeader::FIN) == 0)
+          {
+            DoPeerClose ();
+            return;
+          }
+      }
+    // Now send a new ACK packet acknowledging all received and delivered data
+    if (m_rxBuffer->Size () > m_rxBuffer->Available () || m_rxBuffer->NextRxSequence () > expectedSeq + p->GetSize ())
     { // A gap exists in the buffer, or we filled a gap: Always ACK
       m_congestionControl->CwndEvent (m_tcb, TcpSocketState::CA_EVENT_NON_DELAYED_ACK);
       if (m_tcb->m_ecnState == TcpSocketState::ECN_CE_RCVD || m_tcb->m_ecnState == TcpSocketState::ECN_SENDING_ECE)
@@ -3420,7 +3499,7 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
           SendEmptyPacket (TcpHeader::ACK);
         }
     }
-  else
+    else
     { // In-sequence packet: ACK if delayed ack count allows
       if (++m_delAckCount >= m_delAckMaxCount)
         {
@@ -3447,6 +3526,8 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
                         (Simulator::Now () + Simulator::GetDelayLeft (m_delAckEvent)).GetSeconds ());
         }
     }
+  }
+  //
 }
 
 /**

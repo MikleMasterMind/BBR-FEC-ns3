@@ -10,6 +10,10 @@
 #include "ns3/point-to-point-layout-module.h"
 #include "ns3/flow-monitor-module.h"
 
+// my code
+#include "ns3/fec-module-encoder.h"
+//
+
 using namespace ns3;
 
 bool firstCwnd = true;
@@ -291,13 +295,12 @@ int main (int argc, char *argv[])
                 "TcpLp, TcpBbr", transport_prot);
   // my code
   cmd.AddValue ("ecn", "true, false", ecn);
-  cmd.AddValue ("redundancy", "", redundancy);
+  cmd.AddValue ("redundancy", "Redundant packets amount", redundancy);
   //
   cmd.Parse (argc,argv);
 
   // my code
-  // LogComponentEnable ("TcpSocketBase", LOG_LEVEL_FUNCTION);
-  //
+  Config::SetDefault("ns3::ForwardErrorCorrectionEncoder::Redundancy", IntegerValue (redundancy));
 
   // Calculate the ADU size
   Header* temp_header = new Ipv4Header ();

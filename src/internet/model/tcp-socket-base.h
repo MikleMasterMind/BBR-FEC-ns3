@@ -23,6 +23,7 @@
 
 #include <stdint.h>
 #include <queue>
+#include <vector>
 #include "ns3/traced-value.h"
 #include "ns3/tcp-socket.h"
 #include "ns3/ipv4-header.h"
@@ -38,7 +39,6 @@
 // my code
 #include "fec-module-encoder.h"
 #include "fec-module-decoder.h"
-#define FECTCPHEADERFLAG (TcpHeader::SYN | TcpHeader::FIN | TcpHeader::ACK)
 
 namespace ns3 {
 
@@ -885,7 +885,7 @@ protected:
   /**
    * 
    */
-  virtual void SendFecPacket ();
+  virtual uint32_t SendFecPacket ();
 
   /**
    * \brief Send a empty packet that carries a flag, e.g., ACK
@@ -1459,9 +1459,10 @@ protected:
 
   // forward error correction
   // my code
-  ForwardErrorCorrectionEncoder* m_fecEncoder;
-  ForwardErrorCorrectionDecoder* m_fecDecoder;
+  Ptr<ForwardErrorCorrectionEncoder> m_fecEncoder;
+  Ptr<ForwardErrorCorrectionDecoder> m_fecDecoder;
   SequenceNumber32 m_nextFecSeq;
+  bool m_lossInBlock;
 };
 
 /**

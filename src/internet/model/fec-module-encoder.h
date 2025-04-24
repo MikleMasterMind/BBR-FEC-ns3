@@ -4,9 +4,12 @@
 #include "ns3/core-module.h"
 #include "ns3/packet.h"
 #include "ns3/ptr.h"
+#include "ns3/tcp-header.h"
+#include "ns3/sequence-number.h"
+#include "ns3/tcp-option.h"
 
-#define FECBLOCKSIZE 10
-#define FECREDUNDANCY 1
+#define FEC_BLOCK_SIZE 10
+#define FEC_TCP_HEADER_FLAG (ns3::TcpHeader::SYN | ns3::TcpHeader::FIN)
 
 namespace ns3 
 {
@@ -24,28 +27,28 @@ public:
   /**
    * default constructor
    */
-  ForwardErrorCorrectionEncoder(void);
+  ForwardErrorCorrectionEncoder (int redundancy = 0);
 
   /**
    * copy constructor
    */
-  ForwardErrorCorrectionEncoder(const ForwardErrorCorrectionEncoder& fec);
+  ForwardErrorCorrectionEncoder (const ForwardErrorCorrectionEncoder& fec);
 
   /**
    * Add new Packet to Fec Block.
    */
-  void AddPacket(const Ptr<Packet> packet);
+  void AddPacket (const Ptr<Packet> packet, const TcpHeader& tcpHeader);
 
   /**
    * Check if Fec Block is full.
    * return True if Fec Block is full
    */
-  bool FecBlockFull();
+  bool FecBlockFull ();
 
   /**
    * Return redudant packets from filled in Fec Block
    */
-  std::vector<Ptr<Packet>> GetRedundantPackets();
+  std::vector<std::pair<Ptr<Packet>, TcpHeader>> GetRedundantPackets ();
 
   /**
    * Reset Fec Block
@@ -57,9 +60,16 @@ public:
    */
 
 protected:
-  int m_cur_packets_in_block;
-  int m_block_size;
+  
+  void setFecHeaderFlag (TcpHeader& header);
+
+
+  int m_curPacketsInBlock;
+  int m_blockSize;
   int m_redundancy;
+  std::array<std::pair<Ptr<Packet>, TcpHeader>, FEC_BLOCK_SIZE> m_fecBlock;
+  SequenceNumber32 m_prevPayloadSequenceNumber;
+  SequenceNumber32 m_curFecSequenceNumber;
 };
 
 
