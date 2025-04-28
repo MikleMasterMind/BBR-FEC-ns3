@@ -6,7 +6,7 @@ This repository contains the source code related to the Dissertation on Evaluati
 
 * Step 1: Clone this repo:
 
-``git clone https://github.com/lanigan23/BBRv2-Eval-ns-3.git``
+``git clone https://github.com/MikleMasterMind/BBR-FEC-ns3.git``
 
 * Step 2: Configure and build the cloned repo:
 
