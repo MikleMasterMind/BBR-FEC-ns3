@@ -26,6 +26,9 @@
 #include "ns3/queue-disc.h"
 #include <tuple>
 
+// my code
+// #define DEBUG
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("TrafficControlLayer");
@@ -316,6 +319,10 @@ void
 TrafficControlLayer::Send (Ptr<NetDevice> device, Ptr<QueueDiscItem> item)
 {
   NS_LOG_FUNCTION (this << device << item);
+  // my code
+  #ifdef DEBUG
+  std::cout << "traffic-control-layer Send " << item->GetSize () << std::endl;
+  #endif
 
   NS_LOG_DEBUG ("Send packet to device " << device << " protocol number " <<
                 item->GetProtocol ());
@@ -369,6 +376,10 @@ TrafficControlLayer::Send (Ptr<NetDevice> device, Ptr<QueueDiscItem> item)
       NS_ASSERT (qDisc);
       qDisc->Enqueue (item);
       qDisc->Run ();
+      // my code
+      #ifdef DEBUG
+      std::cout << "traffic-control-layer here 3 " << std::endl;
+      #endif
     }
 }
 

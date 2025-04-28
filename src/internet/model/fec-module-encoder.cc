@@ -2,7 +2,7 @@
 #include "ns3/core-module.h"
 #include "ns3/tcp-option-fec.h"
 
-#define DEBUG
+// #define DEBUG
 #include <iostream>
 
 namespace ns3 {
@@ -88,9 +88,10 @@ std::vector<std::pair<Ptr<Packet>, TcpHeader>> ForwardErrorCorrectionEncoder::Ge
   
   // dummy packet to send
   std::string message = "Hello";
-  Ptr<Packet> redundantPacket = Create<Packet>((uint8_t*)message.c_str(), message.size() + 1);
+  Ptr<Packet> redundantPacket = m_fecBlock[0].first;
+  // Ptr<Packet> redundantPacket = Create<Packet> ((uint8_t*)message.c_str (), message.size () + 1);
   TcpHeader redundantHeader = m_fecBlock[0].second;
-  // setFecHeaderFlag (redundantHeader);
+  setFecHeaderFlag (redundantHeader);
   for (int i = 0; i < m_redundancy; ++i)
   {
     redundantHeader.SetSequenceNumber (m_curFecSequenceNumber);

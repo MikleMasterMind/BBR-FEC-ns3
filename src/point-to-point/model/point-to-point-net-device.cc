@@ -30,6 +30,9 @@
 #include "point-to-point-channel.h"
 #include "ppp-header.h"
 
+// my code
+// #define DEBUG
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("PointToPointNetDevice");
@@ -369,6 +372,11 @@ PointToPointNetDevice::Receive (Ptr<Packet> packet)
 {
   NS_LOG_FUNCTION (this << packet);
   uint16_t protocol = 0;
+
+  // my code
+  #ifdef DEBUG
+  std::cout << "point-to-point-net-device Receive " << packet->GetSize () << std::endl;
+  #endif
 
   if (m_receiveErrorModel && m_receiveErrorModel->IsCorrupt (packet) ) 
     {

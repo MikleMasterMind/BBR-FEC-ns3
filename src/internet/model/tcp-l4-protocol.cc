@@ -48,6 +48,9 @@
 #include <sstream>
 #include <iomanip>
 
+// my code
+// #define DEBUG
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("TcpL4Protocol");
@@ -409,98 +412,102 @@ TcpL4Protocol::NoEndPointsFound (const TcpHeader &incomingHeader,
 
       outgoingTcpHeader.SetSourcePort (incomingHeader.GetDestinationPort ());
       outgoingTcpHeader.SetDestinationPort (incomingHeader.GetSourcePort ());
-
+      
       SendPacket (rstPacket, outgoingTcpHeader, incomingDAddr, incomingSAddr);
     }
-}
-
-enum IpL4Protocol::RxStatus
-TcpL4Protocol::Receive (Ptr<Packet> packet,
-                        Ipv4Header const &incomingIpHeader,
-                        Ptr<Ipv4Interface> incomingInterface)
-{
-  NS_LOG_FUNCTION (this << packet << incomingIpHeader << incomingInterface);
-
-  TcpHeader incomingTcpHeader;
-  IpL4Protocol::RxStatus checksumControl;
-
+  }
+  
+  enum IpL4Protocol::RxStatus
+  TcpL4Protocol::Receive (Ptr<Packet> packet,
+    Ipv4Header const &incomingIpHeader,
+    Ptr<Ipv4Interface> incomingInterface)
+    {
+      NS_LOG_FUNCTION (this << packet << incomingIpHeader << incomingInterface);
+      // my code
+      #ifdef DEBUG
+      std::cout << "tcp-l4-protocol Receive " << packet->GetSize () << std::endl;
+      #endif
+      
+      TcpHeader incomingTcpHeader;
+      IpL4Protocol::RxStatus checksumControl;
+  
   checksumControl = PacketReceived (packet, incomingTcpHeader,
-                                    incomingIpHeader.GetSource (),
-                                    incomingIpHeader.GetDestination ());
-
-  if (checksumControl != IpL4Protocol::RX_OK)
+    incomingIpHeader.GetSource (),
+    incomingIpHeader.GetDestination ());
+    
+    if (checksumControl != IpL4Protocol::RX_OK)
     {
       return checksumControl;
     }
-
-  Ipv4EndPointDemux::EndPoints endPoints;
-  endPoints = m_endPoints->Lookup (incomingIpHeader.GetDestination (),
-                                   incomingTcpHeader.GetDestinationPort (),
-                                   incomingIpHeader.GetSource (),
-                                   incomingTcpHeader.GetSourcePort (),
-                                   incomingInterface);
-
-  if (endPoints.empty ())
+    
+    Ipv4EndPointDemux::EndPoints endPoints;
+    endPoints = m_endPoints->Lookup (incomingIpHeader.GetDestination (),
+    incomingTcpHeader.GetDestinationPort (),
+    incomingIpHeader.GetSource (),
+    incomingTcpHeader.GetSourcePort (),
+    incomingInterface);
+    
+    if (endPoints.empty ())
     {
       if (this->GetObject<Ipv6L3Protocol> () != 0)
-        {
-          NS_LOG_LOGIC ("  No Ipv4 endpoints matched on TcpL4Protocol, trying Ipv6 " << this);
-          Ptr<Ipv6Interface> fakeInterface;
-          Ipv6Header ipv6Header;
-          Ipv6Address src, dst;
-
-          src = Ipv6Address::MakeIpv4MappedAddress (incomingIpHeader.GetSource ());
-          dst = Ipv6Address::MakeIpv4MappedAddress (incomingIpHeader.GetDestination ());
-          ipv6Header.SetSourceAddress (src);
-          ipv6Header.SetDestinationAddress (dst);
-          return (this->Receive (packet, ipv6Header, fakeInterface));
-        }
-
+      {
+        NS_LOG_LOGIC ("  No Ipv4 endpoints matched on TcpL4Protocol, trying Ipv6 " << this);
+        Ptr<Ipv6Interface> fakeInterface;
+        Ipv6Header ipv6Header;
+        Ipv6Address src, dst;
+        
+        src = Ipv6Address::MakeIpv4MappedAddress (incomingIpHeader.GetSource ());
+        dst = Ipv6Address::MakeIpv4MappedAddress (incomingIpHeader.GetDestination ());
+        ipv6Header.SetSourceAddress (src);
+        ipv6Header.SetDestinationAddress (dst);
+        return (this->Receive (packet, ipv6Header, fakeInterface));
+      }
+      
       NS_LOG_LOGIC ("TcpL4Protocol " << this << " received a packet but"
-                    " no endpoints matched." <<
-                    " destination IP: " << incomingIpHeader.GetDestination () <<
-                    " destination port: "<< incomingTcpHeader.GetDestinationPort () <<
-                    " source IP: " << incomingIpHeader.GetSource () <<
-                    " source port: "<< incomingTcpHeader.GetSourcePort ());
-
-      NoEndPointsFound (incomingTcpHeader, incomingIpHeader.GetSource (),
-                        incomingIpHeader.GetDestination ());
-
-      return IpL4Protocol::RX_ENDPOINT_CLOSED;
-
-    }
-
-  NS_ASSERT_MSG (endPoints.size () == 1, "Demux returned more than one endpoint");
-  NS_LOG_LOGIC ("TcpL4Protocol " << this << " received a packet and"
-                " now forwarding it up to endpoint/socket");
-
-  (*endPoints.begin ())->ForwardUp (packet, incomingIpHeader,
-                                    incomingTcpHeader.GetSourcePort (),
-                                    incomingInterface);
-
-  return IpL4Protocol::RX_OK;
-}
-
-enum IpL4Protocol::RxStatus
-TcpL4Protocol::Receive (Ptr<Packet> packet,
-                        Ipv6Header const &incomingIpHeader,
-                        Ptr<Ipv6Interface> interface)
-{
-  NS_LOG_FUNCTION (this << packet << incomingIpHeader.GetSourceAddress () <<
-                   incomingIpHeader.GetDestinationAddress ());
-
-  TcpHeader incomingTcpHeader;
-  IpL4Protocol::RxStatus checksumControl;
-
-  // If we are receiving a v4-mapped packet, we will re-calculate the TCP checksum
-  // Is it worth checking every received "v6" packet to see if it is v4-mapped in
-  // order to avoid re-calculating TCP checksums for v4-mapped packets?
-
-  checksumControl = PacketReceived (packet, incomingTcpHeader,
-                                    incomingIpHeader.GetSourceAddress (),
-                                    incomingIpHeader.GetDestinationAddress ());
-
-  if (checksumControl != IpL4Protocol::RX_OK)
+        " no endpoints matched." <<
+        " destination IP: " << incomingIpHeader.GetDestination () <<
+        " destination port: "<< incomingTcpHeader.GetDestinationPort () <<
+        " source IP: " << incomingIpHeader.GetSource () <<
+        " source port: "<< incomingTcpHeader.GetSourcePort ());
+        
+        NoEndPointsFound (incomingTcpHeader, incomingIpHeader.GetSource (),
+        incomingIpHeader.GetDestination ());
+        
+        return IpL4Protocol::RX_ENDPOINT_CLOSED;
+        
+      }
+      
+      NS_ASSERT_MSG (endPoints.size () == 1, "Demux returned more than one endpoint");
+      NS_LOG_LOGIC ("TcpL4Protocol " << this << " received a packet and"
+        " now forwarding it up to endpoint/socket");
+        
+        (*endPoints.begin ())->ForwardUp (packet, incomingIpHeader,
+          incomingTcpHeader.GetSourcePort (),
+          incomingInterface);
+          
+          return IpL4Protocol::RX_OK;
+        }
+        
+        enum IpL4Protocol::RxStatus
+        TcpL4Protocol::Receive (Ptr<Packet> packet,
+          Ipv6Header const &incomingIpHeader,
+          Ptr<Ipv6Interface> interface)
+          {
+            NS_LOG_FUNCTION (this << packet << incomingIpHeader.GetSourceAddress () <<
+            incomingIpHeader.GetDestinationAddress ());
+            
+            TcpHeader incomingTcpHeader;
+            IpL4Protocol::RxStatus checksumControl;
+            
+            // If we are receiving a v4-mapped packet, we will re-calculate the TCP checksum
+            // Is it worth checking every received "v6" packet to see if it is v4-mapped in
+            // order to avoid re-calculating TCP checksums for v4-mapped packets?
+            
+            checksumControl = PacketReceived (packet, incomingTcpHeader,
+              incomingIpHeader.GetSourceAddress (),
+              incomingIpHeader.GetDestinationAddress ());
+              
+              if (checksumControl != IpL4Protocol::RX_OK)
     {
       return checksumControl;
     }
@@ -579,9 +586,16 @@ TcpL4Protocol::SendPacketV4 (Ptr<Packet> packet, const TcpHeader &outgoing,
           route = 0;
         }
       m_downTarget (packet, saddr, daddr, PROT_NUMBER, route);
+      // my code
+      #ifdef DEBUG
+      std::cout << "tcp-l4-protocol m_downTarget set" << std::endl;
+      #endif
     }
   else
     {
+      #ifdef DEBUG
+      std::cout << "tcp-l4-protocol m_downTarget error" << std::endl;
+      #endif
       NS_FATAL_ERROR ("Trying to use Tcp on a node without an Ipv4 interface");
     }
 }

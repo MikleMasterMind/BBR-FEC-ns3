@@ -23,6 +23,9 @@
 #include "ns3/simulator.h"
 #include "ns3/log.h"
 
+// my code
+// #define DEBUG
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("PointToPointChannel");
@@ -94,6 +97,11 @@ PointToPointChannel::TransmitStart (
 
   NS_ASSERT (m_link[0].m_state != INITIALIZING);
   NS_ASSERT (m_link[1].m_state != INITIALIZING);
+
+  // my code
+  #ifdef DEBUG
+  std::cout << "point-to-point-channel TransmitStart " << p->GetSize () << std::endl;
+  #endif
 
   uint32_t wire = src == m_link[0].m_src ? 0 : 1;
 

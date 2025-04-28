@@ -59,7 +59,7 @@
 #include <algorithm>
 
 // my code
-#define DEBUG
+// #define DEBUG
 
 namespace ns3 {
 
@@ -1178,11 +1178,22 @@ TcpSocketBase::ForwardUp (Ptr<Packet> packet, Ipv4Header header, uint16_t port,
   TcpHeader tcpHeader;
   uint32_t bytesRemoved = packet->PeekHeader (tcpHeader);
 
-  if (!IsValidTcpSegment (tcpHeader.GetSequenceNumber (), bytesRemoved,
+  // my code
+  #ifdef DEBUG
+  std::cout << "tcp-socket-base ForwardUp fec packet " << (tcpHeader.HasOption(TcpOption::FEC) ? "true " : "false ") << packet->GetSize () << std::endl;
+  #endif
+
+  // my code
+  if (!tcpHeader.HasOption(TcpOption::FEC) && !IsValidTcpSegment (tcpHeader.GetSequenceNumber (), bytesRemoved,
                           packet->GetSize () - bytesRemoved))
     {
       return;
     }
+  // if (!IsValidTcpSegment (tcpHeader.GetSequenceNumber (), bytesRemoved,
+  //                         packet->GetSize () - bytesRemoved))
+  //   {
+  //     return;
+  //   }
 
   if (header.GetEcn () == Ipv4Header::ECN_CE && m_ecnCESeq < tcpHeader.GetSequenceNumber ())
     {
@@ -1196,6 +1207,11 @@ TcpSocketBase::ForwardUp (Ptr<Packet> packet, Ipv4Header header, uint16_t port,
     {
       m_congestionControl->CwndEvent (m_tcb, TcpSocketState::CA_EVENT_ECN_NO_CE);
     }
+
+  // my code
+  #ifdef DEBUG
+  std::cout << "tcp-socket-base ForwardUp fec packet again " << (tcpHeader.HasOption(TcpOption::FEC) ? "true " : "false ") << packet->GetSize () << std::endl;
+  #endif
   
   DoForwardUp (packet, fromAddress, toAddress);
 }
@@ -1300,6 +1316,10 @@ TcpSocketBase::DoForwardUp (Ptr<Packet> packet, const Address &fromAddress,
   // Peel off TCP header and do validity checking
   TcpHeader tcpHeader;
   packet->RemoveHeader (tcpHeader);
+  // my code
+  #ifdef DEBUG
+  std::cout << "tcp-socket-base DoForwardUp fec packet " << (tcpHeader.HasOption (TcpOption::FEC) ? "true " : "false ") << packet->GetSize () << std::endl;
+  #endif
   SequenceNumber32 seq = tcpHeader.GetSequenceNumber ();
   if (m_state == ESTABLISHED && !(tcpHeader.GetFlags () & TcpHeader::RST))
     {

@@ -42,6 +42,9 @@
 #include "ipv4-interface.h"
 #include "ipv4-raw-socket-impl.h"
 
+// my code
+// #define DEBUG
+
 namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("Ipv4L3Protocol");
@@ -552,6 +555,10 @@ Ipv4L3Protocol::Receive ( Ptr<NetDevice> device, Ptr<const Packet> p, uint16_t p
   NS_LOG_LOGIC ("Packet from " << from << " received on node " << 
                 m_node->GetId ());
 
+  // my code
+  #ifdef DEBUG
+  std::cout << "ipv4-l3-protocol Receive " << p->GetSize () << std::endl;
+  #endif
 
   int32_t interface = GetInterfaceForDevice(device);
   NS_ASSERT_MSG (interface != -1, "Received a packet from an interface that is not known to IPv4");
@@ -724,6 +731,11 @@ Ipv4L3Protocol::Send (Ptr<Packet> packet,
                       Ptr<Ipv4Route> route)
 {
   NS_LOG_FUNCTION (this << packet << source << destination << uint32_t (protocol) << route);
+
+  // my code
+  #ifdef DEBUG
+  std::cout << "ipv4-l3-protocol Send " << packet->GetSize () << std::endl;
+  #endif
 
   Ipv4Header ipHeader;
   bool mayFragment = true;

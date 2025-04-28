@@ -2,7 +2,7 @@
 #include "ns3/core-module.h"
 
 #include <iostream>
-#define DEBUG
+// #define DEBUG
 
 namespace ns3 {
 
@@ -48,10 +48,10 @@ ForwardErrorCorrectionDecoder::ForwardErrorCorrectionDecoder (const ForwardError
 void ForwardErrorCorrectionDecoder::AddPacket (const Ptr<Packet> packet, const TcpHeader& tcpHeader)
 {
   #ifdef DEBUG
-  std::cout << "ForwardErrorCorrectionDecoder AddPacket, " << std::endl;
+  std::cout << "ForwardErrorCorrectionDecoder AddPacket, " << packet->GetSize () << std::endl;
   uint8_t buffer[1500]; // MTU-typical size
-  packet->CopyData(buffer, packet->GetSize());
-  std::string receivedMessage((char*)buffer, 6);
+  packet->CopyData (buffer, 7);
+  std::string receivedMessage ((char*)buffer, 6);
   std::cout << receivedMessage << std::endl;
   #endif
   if (isFecHeader (tcpHeader))
@@ -184,8 +184,8 @@ void ForwardErrorCorrectionDecoder::Reset()
 
 bool ForwardErrorCorrectionDecoder::isFecHeader(const TcpHeader &header)
 {
-  // delete
-  if (header.HasOption (253))
+  #ifdef DEBUG
+  if (header.HasOption (TcpOption::FEC))
   {
     std::cout << "has option" << std::endl;
   }
@@ -193,8 +193,8 @@ bool ForwardErrorCorrectionDecoder::isFecHeader(const TcpHeader &header)
   {
     std::cout << "no option" << std::endl;
   }
-
-  return header.HasOption (253);
+  #endif
+  return header.HasOption (TcpOption::FEC);
 }
 
 } // namespace ns3

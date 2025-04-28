@@ -30,6 +30,9 @@
 #include <ns3/drop-tail-queue.h>
 #include "ns3/net-device-queue-interface.h"
 
+// my code
+// #define DEBUG
+
 namespace ns3 {
 
 NS_OBJECT_TEMPLATE_CLASS_DEFINE (Queue,QueueDiscItem);
@@ -445,6 +448,10 @@ QueueDisc::SetNetDevice (Ptr<NetDevice> device)
 {
   NS_LOG_FUNCTION (this << device);
   m_device = device;
+  // my code
+  #ifdef DEBUG
+  std::cout << "traffic-control-layer SetNetDevice " <<  device->GetTypeId ().GetName () << std::endl;
+  #endif
 }
 
 Ptr<NetDevice>
@@ -912,6 +919,10 @@ QueueDisc::Transmit (Ptr<QueueDiscItem> item)
       item->GetPacket ()->RemovePacketTag (priorityTag);
     }
   m_device->Send (item->GetPacket (), item->GetAddress (), item->GetProtocol ());
+  // my code
+  #ifdef DEBUG
+  std::cout << "queue-disc Transmit " << m_device->GetTypeId ().GetName () << std::endl;
+  #endif
 
   // the behavior here slightly diverges from Linux. In Linux, it is advised that
   // the function called when a packet needs to be transmitted (ndo_start_xmit)

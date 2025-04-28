@@ -61,6 +61,7 @@ public:
     SACKPERMITTED = 4,          //!< SACKPERMITTED
     SACK = 5,                   //!< SACK
     TS = 8,                     //!< TS
+    FEC = 253,                  //!< FEC // my code
     UNKNOWN = 255               //!< not a standardized value; for unknown recv'd options
   };
 

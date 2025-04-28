@@ -42,7 +42,7 @@ uint32_t ns3::TcpOptionFec::Deserialize (ns3::Buffer::Iterator iter)
 
 uint8_t TcpOptionFec::GetKind () const
 {
-  return 253;
+  return TcpOption::FEC;
 }
 
 uint32_t TcpOptionFec::GetSerializedSize () const

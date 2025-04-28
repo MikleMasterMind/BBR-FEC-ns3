@@ -31,6 +31,8 @@
 #include "ns3/pointer.h"
 #include "ns3/traffic-control-layer.h"
 
+// my code
+// #define DEBUG
 
 namespace ns3 {
 
@@ -213,6 +215,10 @@ void
 Ipv4Interface::Send (Ptr<Packet> p, const Ipv4Header & hdr, Ipv4Address dest)
 {
   NS_LOG_FUNCTION (this << *p << dest);
+  // my code
+  #ifdef DEBUG
+  std::cout << "ipv4-interface Send " << p->GetSize () << std::endl;
+  #endif
   if (!IsUp ())
     {
       return;
