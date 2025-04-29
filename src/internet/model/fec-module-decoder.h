@@ -10,6 +10,7 @@
 #define FEC_BLOCK_SIZE 10
 #define FEC_REDUNDANCY 1
 #define FEC_LOSS_THRESH 1
+#define FEC_RAND_FEC_SEQ_NUM 0
 
 #define FEC_RAND_SEQ_NUM 7
 
@@ -47,13 +48,13 @@ public:
    * Check if Fec Block is full.
    * return True if Fec Block is full
    */
-  bool FecBlockFull();
+  bool FecBlockFull() const;
 
   /**
    * Check if recovery packets loss possible
    * return True if possible
    */
-  bool RecoveryPossible();
+  bool RecoveryPossible() const;
 
   /**
    * Return payload packets from filled in Fec Block
@@ -66,9 +67,18 @@ public:
    */
   void Reset();
 
-protected:
-  bool isFecHeader (const TcpHeader& header);
+  /**
+   * Return true if header has TcpOptionFec
+   * false othervise
+   */
+  bool IsFecHeader (const TcpHeader& header);
 
+  /**
+   * Retun next expected sequence number of fec packet
+   */
+  SequenceNumber32 GetExpectedSeqNum () const;
+  
+protected:
   int m_curPacketsInBlock;
   int m_blockSize;
   int m_redundancy;

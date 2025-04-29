@@ -1,9 +1,9 @@
 #include "ns3/fec-module-encoder.h"
 #include "ns3/core-module.h"
 #include "ns3/tcp-option-fec.h"
-
-// #define DEBUG
 #include <iostream>
+
+#define DEBUG
 
 namespace ns3 {
 
@@ -22,6 +22,10 @@ ForwardErrorCorrectionEncoder::GetTypeId (void)
                        IntegerValue (0),
                        MakeIntegerAccessor (&ForwardErrorCorrectionEncoder::m_redundancy),
                        MakeIntegerChecker<int> ());
+        // .AddAttribute ("FecBlockSize", "Amount of pacets in one fec block",
+        //                IntegerValue(10),
+        //                MakeIntegerAccessor (&ForwardErrorCorrectionEncoder::m_blockSize),
+        //                MakeIntegerChecker<int> ());
     return tid;
 }
 
@@ -91,7 +95,7 @@ std::vector<std::pair<Ptr<Packet>, TcpHeader>> ForwardErrorCorrectionEncoder::Ge
   Ptr<Packet> redundantPacket = m_fecBlock[0].first;
   // Ptr<Packet> redundantPacket = Create<Packet> ((uint8_t*)message.c_str (), message.size () + 1);
   TcpHeader redundantHeader = m_fecBlock[0].second;
-  setFecHeaderFlag (redundantHeader);
+  SetFecHeader (redundantHeader);
   for (int i = 0; i < m_redundancy; ++i)
   {
     redundantHeader.SetSequenceNumber (m_curFecSequenceNumber);
@@ -112,10 +116,20 @@ void ForwardErrorCorrectionEncoder::Reset ()
   m_curPacketsInBlock = 0;
 }
 
-void ForwardErrorCorrectionEncoder::setFecHeaderFlag (TcpHeader &header)
+void ForwardErrorCorrectionEncoder::SetFecHeader (TcpHeader &header)
 {
   Ptr<TcpOptionFec> option = CreateObject<TcpOptionFec> ();
   header.AppendOption (option);
+}
+
+bool ForwardErrorCorrectionEncoder::IsOn ()
+{
+  return m_redundancy > 0;
+}
+
+SequenceNumber32 ForwardErrorCorrectionEncoder::GetNextSeqNum () const
+{
+  return SequenceNumber32 (m_curFecSequenceNumber.GetValue () + m_fecBlock[0].first->GetSize ());
 }
 
 } // namespace ns3

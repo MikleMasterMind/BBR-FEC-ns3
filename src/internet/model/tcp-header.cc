@@ -511,7 +511,6 @@ bool
 TcpHeader::HasOption (uint8_t kind) const
 {
   TcpOptionList::const_iterator i;
-
   for (i = m_options.begin (); i != m_options.end (); ++i)
     {
       if ((*i)->GetKind () == kind)
@@ -519,7 +518,6 @@ TcpHeader::HasOption (uint8_t kind) const
           return true;
         }
     }
-
   return false;
 }
 

@@ -56,14 +56,22 @@ public:
   void Reset();
 
   /**
-   * 
+   * Return true if generating fec packets is on
+   * false oservise
    */
+  bool IsOn ();
+
+  /**
+   * Add TcpOptionFec in header
+   */
+  void SetFecHeader (TcpHeader& header);
+
+  /**
+   * Return seq number which should be send next
+   */
+  SequenceNumber32 GetNextSeqNum () const;
 
 protected:
-  
-  void setFecHeaderFlag (TcpHeader& header);
-
-
   int m_curPacketsInBlock;
   int m_blockSize;
   int m_redundancy;

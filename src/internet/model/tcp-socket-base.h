@@ -894,6 +894,12 @@ protected:
    */
   virtual void SendEmptyPacket (uint8_t flags);
 
+  // my code
+  /**
+   * Send a empty packet with TcpOptionFec that carries a flag
+   */
+  virtual void SendEmptyFecPacket (uint8_t flags);
+
   /**
    * \brief Send reset and tear down this socket
    */

@@ -2,7 +2,7 @@
 #include "ns3/core-module.h"
 
 #include <iostream>
-// #define DEBUG
+#define DEBUG
 
 namespace ns3 {
 
@@ -17,6 +17,10 @@ ForwardErrorCorrectionDecoder::GetTypeId (void)
         .SetParent<Object>()
         .SetGroupName("ForwardErrorCorrectionDecoder")
         .AddConstructor<ForwardErrorCorrectionDecoder> ();
+        // .AddAttribute ("FecBlockSize", "Amount of pacets in one fec block",
+        //                IntegerValue(10),
+        //                MakeIntegerAccessor (&ForwardErrorCorrectionDecoder::m_blockSize),
+        //                MakeIntegerChecker<int> ());
     return tid;
 }
 
@@ -25,7 +29,7 @@ ForwardErrorCorrectionDecoder::ForwardErrorCorrectionDecoder (void)
     m_blockSize (FEC_BLOCK_SIZE),
     m_redundancy (4),
     m_lossThresh (FEC_LOSS_THRESH),
-    m_expectedFecSeqeunceNumber (0),
+    m_expectedFecSeqeunceNumber (FEC_RAND_FEC_SEQ_NUM),
     m_expectedPayloadSequnceNumber (FEC_RAND_SEQ_NUM)
 {
   NS_LOG_FUNCTION (this);
@@ -48,23 +52,19 @@ ForwardErrorCorrectionDecoder::ForwardErrorCorrectionDecoder (const ForwardError
 void ForwardErrorCorrectionDecoder::AddPacket (const Ptr<Packet> packet, const TcpHeader& tcpHeader)
 {
   #ifdef DEBUG
-  std::cout << "ForwardErrorCorrectionDecoder AddPacket, " << packet->GetSize () << std::endl;
-  uint8_t buffer[1500]; // MTU-typical size
-  packet->CopyData (buffer, 7);
-  std::string receivedMessage ((char*)buffer, 6);
-  std::cout << receivedMessage << std::endl;
+  std::cout << "ForwardErrorCorrectionDecoder AddPacket, " << std::endl;
   #endif
-  if (isFecHeader (tcpHeader))
+  if (IsFecHeader (tcpHeader))
   {
     #ifdef DEBUG
-    std::cout << "fec packet, seq num " << tcpHeader.GetSequenceNumber ().GetValue () << " expected " << m_expectedFecSeqeunceNumber.GetValue ();
+    std::cout << "fec packet, seq num " << tcpHeader.GetSequenceNumber ().GetValue () << " expected " << m_expectedFecSeqeunceNumber.GetValue () << std::endl;
     #endif
-    if (tcpHeader.GetSequenceNumber ().GetValue () == m_expectedFecSeqeunceNumber.GetValue ())
+    if (tcpHeader.GetSequenceNumber ().GetValue () == m_expectedFecSeqeunceNumber.GetValue () || m_expectedFecSeqeunceNumber.GetValue () == FEC_RAND_FEC_SEQ_NUM)
     {
       m_redundancy += 1;
       m_expectedFecSeqeunceNumber = SequenceNumber32 (tcpHeader.GetSequenceNumber ().GetValue () + packet->GetSize ());
       #ifdef DEBUG
-      std::cout << " success" << std::endl;
+      std::cout << "success" << std::endl;
       #endif
     }
   }
@@ -94,6 +94,7 @@ void ForwardErrorCorrectionDecoder::AddPacket (const Ptr<Packet> packet, const T
       {
         m_lossIndexes.insert (lossIndex);
         lossIndex += 1;
+        curSequnceNumber = SequenceNumber32(curSequnceNumber.GetValue () + packet->GetSize ());
         #ifdef DEBUG
         std::cout << " loss index " << lossIndex - 1;
         #endif
@@ -111,7 +112,7 @@ void ForwardErrorCorrectionDecoder::AddPacket (const Ptr<Packet> packet, const T
   }
 }
 
-bool ForwardErrorCorrectionDecoder::FecBlockFull ()
+bool ForwardErrorCorrectionDecoder::FecBlockFull () const
 {
   #ifdef DEBUG
   std::cout << "ForwardErrorCorrectionDecoder FecBlockFull " << (m_blockSize <= m_curPacketsInBlock + m_redundancy + (int)m_lossIndexes.size () ? "true" : "false") << std::endl;
@@ -119,7 +120,7 @@ bool ForwardErrorCorrectionDecoder::FecBlockFull ()
   return m_blockSize <= m_curPacketsInBlock + m_redundancy + (int)m_lossIndexes.size ();
 }
 
-bool ForwardErrorCorrectionDecoder::RecoveryPossible ()
+bool ForwardErrorCorrectionDecoder::RecoveryPossible () const
 {
   #ifdef DEBUG
   std::cout << "ForwardErrorCorrectionDecoder RecoveryPossible " << ((int)m_lossIndexes.size () <= m_lossThresh ? "true" : "false") << std::endl;
@@ -150,21 +151,23 @@ ForwardErrorCorrectionDecoder::GetRecoveredPackets ()
       break;
     }
   }
-
+  #ifdef DEBUG
+  std::cout << "m_blockSize " << m_blockSize << " m_redundancy " << m_redundancy << std::endl;
+  #endif
   std::vector<std::pair<Ptr<Packet>, TcpHeader>> result;
   for (int i = 0; i < (m_blockSize - m_redundancy); ++i)
   {
     if (m_lossIndexes.count (i) > 0)
     {
-      result.push_back(std::make_pair(fakePacket, fakeHeader));
-      fakeHeader.SetSequenceNumber (SequenceNumber32(fakeHeader.GetSequenceNumber ().GetValue () + fakePacket->GetSize ()));
+      result.push_back (std::make_pair (fakePacket, fakeHeader));
     }
     else
     {
-      result.push_back(m_fecBlock[i]);
+      result.push_back (m_fecBlock[i]);
       fakePacket = m_fecBlock[i].first;
       fakeHeader = m_fecBlock[i].second;
     }
+    fakeHeader.SetSequenceNumber (SequenceNumber32 (fakeHeader.GetSequenceNumber ().GetValue () + fakePacket->GetSize ()));
   }
   #ifdef DEBUG
   std::cout << "return packets " << result.size () << std::endl;
@@ -172,7 +175,7 @@ ForwardErrorCorrectionDecoder::GetRecoveredPackets ()
   return result;
 }
 
-void ForwardErrorCorrectionDecoder::Reset()
+void ForwardErrorCorrectionDecoder::Reset ()
 {
   #ifdef DEBUG
   std::cout << "ForwardErrorCorrectionDecoder Reset" << std::endl;
@@ -182,19 +185,14 @@ void ForwardErrorCorrectionDecoder::Reset()
   m_lossIndexes.clear ();
 }
 
-bool ForwardErrorCorrectionDecoder::isFecHeader(const TcpHeader &header)
+bool ForwardErrorCorrectionDecoder::IsFecHeader (const TcpHeader &header)
 {
-  #ifdef DEBUG
-  if (header.HasOption (TcpOption::FEC))
-  {
-    std::cout << "has option" << std::endl;
-  }
-  else
-  {
-    std::cout << "no option" << std::endl;
-  }
-  #endif
   return header.HasOption (TcpOption::FEC);
+}
+
+SequenceNumber32 ForwardErrorCorrectionDecoder::GetExpectedSeqNum () const
+{
+  return m_expectedFecSeqeunceNumber;
 }
 
 } // namespace ns3
