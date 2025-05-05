@@ -21,11 +21,11 @@ ForwardErrorCorrectionEncoder::GetTypeId (void)
         .AddAttribute ("Redundancy", "Amount of redundant packets in block",
                        IntegerValue (0),
                        MakeIntegerAccessor (&ForwardErrorCorrectionEncoder::m_redundancy),
+                       MakeIntegerChecker<int> ())
+        .AddAttribute ("FecBlockSize", "Amount of pacets in one fec block",
+                       IntegerValue(10),
+                       MakeIntegerAccessor (&ForwardErrorCorrectionEncoder::m_blockSize),
                        MakeIntegerChecker<int> ());
-        // .AddAttribute ("FecBlockSize", "Amount of pacets in one fec block",
-        //                IntegerValue(10),
-        //                MakeIntegerAccessor (&ForwardErrorCorrectionEncoder::m_blockSize),
-        //                MakeIntegerChecker<int> ());
     return tid;
 }
 
@@ -52,6 +52,10 @@ ForwardErrorCorrectionEncoder::ForwardErrorCorrectionEncoder (const ForwardError
 
 void ForwardErrorCorrectionEncoder::AddPacket (const Ptr<Packet> packet, const TcpHeader& tcpHeader)
 {
+  if ((int)m_fecBlock.size () != m_blockSize)
+  {
+    m_fecBlock.resize (m_blockSize);
+  }
   #ifdef DEBUG
   std::cout << "ForwardErrorCorrectionEncoder Add Packet, Previous " << m_prevPayloadSequenceNumber.GetValue () << " Packet size " << packet->GetSize () << " New Seq " << tcpHeader.GetSequenceNumber ().GetValue () << std::endl;
   #endif
@@ -59,7 +63,7 @@ void ForwardErrorCorrectionEncoder::AddPacket (const Ptr<Packet> packet, const T
   if (m_prevPayloadSequenceNumber.GetValue () == 0 || m_prevPayloadSequenceNumber.GetValue () + packet->GetSize () - 32 == tcpHeader.GetSequenceNumber ().GetValue ())
   {
     m_fecBlock[m_curPacketsInBlock] = std::make_pair (packet, tcpHeader);
-    m_prevPayloadSequenceNumber = SequenceNumber32(tcpHeader.GetSequenceNumber ().GetValue ());;
+    m_prevPayloadSequenceNumber = SequenceNumber32 (tcpHeader.GetSequenceNumber ().GetValue ());;
     m_curPacketsInBlock += 1;
     #ifdef DEBUG
     std::cout << "ForwardErrorCorrectionEncoder Add Packet success" << std::endl;
@@ -91,10 +95,8 @@ std::vector<std::pair<Ptr<Packet>, TcpHeader>> ForwardErrorCorrectionEncoder::Ge
   std::vector<std::pair<Ptr<Packet>, TcpHeader>> result;
   
   // dummy packet to send
-  std::string message = "Hello";
-  Ptr<Packet> redundantPacket = m_fecBlock[0].first;
-  // Ptr<Packet> redundantPacket = Create<Packet> ((uint8_t*)message.c_str (), message.size () + 1);
-  TcpHeader redundantHeader = m_fecBlock[0].second;
+  Ptr<Packet> redundantPacket = Create<Packet> ((m_fecBlock[0].first->GetSize ()));
+  TcpHeader redundantHeader = TcpHeader ();
   SetFecHeader (redundantHeader);
   for (int i = 0; i < m_redundancy; ++i)
   {

@@ -75,7 +75,7 @@ protected:
   int m_curPacketsInBlock;
   int m_blockSize;
   int m_redundancy;
-  std::array<std::pair<Ptr<Packet>, TcpHeader>, FEC_BLOCK_SIZE> m_fecBlock;
+  std::vector<std::pair<Ptr<Packet>, TcpHeader>> m_fecBlock;
   SequenceNumber32 m_prevPayloadSequenceNumber;
   SequenceNumber32 m_curFecSequenceNumber;
 };

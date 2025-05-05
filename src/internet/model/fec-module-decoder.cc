@@ -16,11 +16,11 @@ ForwardErrorCorrectionDecoder::GetTypeId (void)
     static TypeId tid = TypeId("ns3::ForwardErrorCorrectionDecoder")
         .SetParent<Object>()
         .SetGroupName("ForwardErrorCorrectionDecoder")
-        .AddConstructor<ForwardErrorCorrectionDecoder> ();
-        // .AddAttribute ("FecBlockSize", "Amount of pacets in one fec block",
-        //                IntegerValue(10),
-        //                MakeIntegerAccessor (&ForwardErrorCorrectionDecoder::m_blockSize),
-        //                MakeIntegerChecker<int> ());
+        .AddConstructor<ForwardErrorCorrectionDecoder> ()
+        .AddAttribute ("FecBlockSize", "Amount of pacets in one fec block",
+                       IntegerValue(10),
+                       MakeIntegerAccessor (&ForwardErrorCorrectionDecoder::m_blockSize),
+                       MakeIntegerChecker<int> ());
     return tid;
 }
 
@@ -51,6 +51,10 @@ ForwardErrorCorrectionDecoder::ForwardErrorCorrectionDecoder (const ForwardError
 
 void ForwardErrorCorrectionDecoder::AddPacket (const Ptr<Packet> packet, const TcpHeader& tcpHeader)
 {
+  if ((int)m_fecBlock.size () != m_blockSize)
+  {
+    m_fecBlock.resize (m_blockSize);
+  }
   #ifdef DEBUG
   std::cout << "ForwardErrorCorrectionDecoder AddPacket, " << std::endl;
   #endif

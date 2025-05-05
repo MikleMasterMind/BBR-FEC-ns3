@@ -84,7 +84,7 @@ protected:
   int m_redundancy;
   int m_lossThresh;
   std::set<int> m_lossIndexes;
-  std::array<std::pair<Ptr<Packet>, TcpHeader>, FEC_BLOCK_SIZE> m_fecBlock;
+  std::vector<std::pair<Ptr<Packet>, TcpHeader>> m_fecBlock;
   SequenceNumber32 m_expectedFecSeqeunceNumber;
   SequenceNumber32 m_expectedPayloadSequnceNumber;
 };

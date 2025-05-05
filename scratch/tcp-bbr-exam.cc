@@ -235,7 +235,7 @@ int main (int argc, char *argv[])
   bool vegas = false;
   // my code
   int redundancy = 0;
-  // int fec_block_size = 10;
+  int fec_block_size = 10;
 
   if (variant == TcpBbr::BBR_HSR)
     {
@@ -297,14 +297,14 @@ int main (int argc, char *argv[])
   // my code
   cmd.AddValue ("ecn", "true, false", ecn);
   cmd.AddValue ("redundancy", "Redundant packets amount", redundancy);
-  // cmd.AddValue ("fec_block_size", "Amount of packets in fec block", fec_block_size);
+  cmd.AddValue ("fec_block_size", "Amount of packets in fec block", fec_block_size);
   //
   cmd.Parse (argc,argv);
 
   // my code
   Config::SetDefault("ns3::ForwardErrorCorrectionEncoder::Redundancy", IntegerValue (redundancy));
-  // Config::SetDefault("ns3::ForwardErrorCorrectionEncoder::FecBlockSize", IntegerValue (fec_block_size));
-  // Config::SetDefault("ns3::ForwardErrorCorrectionDecoder::FecBlockSize", IntegerValue (fec_block_size));
+  Config::SetDefault("ns3::ForwardErrorCorrectionEncoder::FecBlockSize", IntegerValue (fec_block_size));
+  Config::SetDefault("ns3::ForwardErrorCorrectionDecoder::FecBlockSize", IntegerValue (fec_block_size));
 
   // Calculate the ADU size
   Header* temp_header = new Ipv4Header ();
@@ -500,6 +500,7 @@ int main (int argc, char *argv[])
   myfile << "variant" << varstr << "\n";
   // my code
   myfile << "redundancy " << redundancy << "\n";
+  myfile << "fec_block_size " << fec_block_size << "\n";
   //
   myfile.close();
 
