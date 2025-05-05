@@ -230,7 +230,7 @@ int main (int argc, char *argv[])
   bool ecn = false;
   bool exp = false;
   double lambda = 1.0/2.0;
-  bool pcap = false; // my code = false
+  bool pcap = true; // my code = false
   bool cubic = false;
   bool vegas = false;
   // my code
