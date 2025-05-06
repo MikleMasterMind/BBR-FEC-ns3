@@ -5,10 +5,33 @@ from pathlib import Path
 import logging
 from typing import Dict, Optional, Tuple, List
 import sys
+import textwrap
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+def read_config_file(data_dir: Path) -> str:
+    """
+    Читает содержимое файла config.txt
+    
+    Параметры:
+        data_dir - директория с файлами данных
+        
+    Возвращает:
+        Содержимое файла config.txt или сообщение об его отсутствии
+    """
+    config_path = data_dir / "config.txt"
+    if config_path.exists():
+        try:
+            with open(config_path, 'r') as f:
+                return f.read()
+        except Exception as e:
+            logger.warning(f"Не удалось прочитать config.txt: {str(e)}")
+            return "Не удалось прочитать config.txt"
+    else:
+        logger.warning("Файл config.txt не найден")
+        return "Файл config.txt не найден"
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """Обрабатывает дубликаты во временных метках, оставляя последнее значение"""
@@ -108,22 +131,26 @@ def process_all_files(data_dir: Path, grid: np.ndarray) -> Dict[str, pd.DataFram
     
     return processed
 
-def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path) -> None:
+def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path, config_text: str) -> None:
     """
     Создает графики из обработанных данных
     
     Параметры:
         processed_data - словарь с обработанными DataFrame
         output_dir - директория для сохранения графиков
+        config_text - текст из файла config.txt для добавления на графики
     """
     plt.style.use('seaborn-v0_8')
     colors = plt.cm.tab10.colors
+    
+    # Подготовка текста конфига для отображения
+    wrapped_text = textwrap.fill(config_text, width=80)
     
     for metric, df in processed_data.items():
         if df is None or df.empty:
             continue
             
-        fig, ax = plt.subplots(figsize=(10, 5))
+        fig, ax = plt.subplots(figsize=(12, 6))
         
         ax.plot(df['time'], df['value'], 
                 color=colors[list(processed_data.keys()).index(metric) % 10],
@@ -135,22 +162,32 @@ def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path) -> N
         ax.grid(True, linestyle=':', alpha=0.7)
         ax.legend()
         
+        # Добавляем текст конфига в нижней части графика
+        plt.figtext(0.5, 0.01, wrapped_text, 
+                   ha='center', fontsize=8, 
+                   bbox={'facecolor':'white', 'alpha':0.7, 'pad':5})
+        
+        # Увеличиваем нижний отступ для текста
+        plt.subplots_adjust(bottom=0.2)
+        
         plot_path = output_dir / f"{metric}.png"
         fig.savefig(plot_path, dpi=300, bbox_inches='tight')
         plt.close(fig)
         logger.info(f"Создан график: {plot_path}")
-    
 
-def main(path : str):
-    # Создаем регулярную сетку: 0-10 сек с шагом 0.1 мс (0.0001 сек)
-    time_grid = np.arange(0, 200.31, 0.001)
+def main(path: str):
+    # Создаем регулярную сетку: 0-200 сек с шагом 1 мс (0.001 сек)
+    time_grid = np.arange(0, 20.31, 0.001)
     
-    # Путь к данным (замените на ваш)
+    # Путь к данным
     data_directory = Path(path)
     
     if not data_directory.exists():
         logger.error(f"Директория с данными не найдена: {data_directory}")
         return
+    
+    # Читаем файл конфигурации
+    config_text = read_config_file(data_directory)
     
     # Директория для графиков
     output_dir = data_directory / "plots"
@@ -159,11 +196,14 @@ def main(path : str):
     # Обработка данных
     processed_data = process_all_files(data_directory, time_grid)
     
-    # Создание графиков
-    create_plots(processed_data, output_dir)
+    # Создание графиков с добавлением конфига
+    create_plots(processed_data, output_dir, config_text)
     
     logger.info("Обработка завершена")
 
 if __name__ == "__main__":
-    mydir = sys.argv[1]
-    main(mydir)
+    if len(sys.argv) < 2:
+        print("Использование: python script.py <путь_к_данным>")
+        sys.exit(1)
+    
+    main(sys.argv[1])

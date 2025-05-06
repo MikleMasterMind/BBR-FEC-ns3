@@ -1483,7 +1483,7 @@ TcpSocketBase::ProcessEstablished (Ptr<Packet> packet, const TcpHeader& tcpHeade
   std::cout << "tcp-socket-base ProcessEstablished IsFecHeader " << (m_fecDecoder->IsFecHeader (tcpHeader) ? "true" : "false");
   std::cout << std::endl;
   #endif
-  if (m_fecDecoder->IsFecHeader (tcpHeader) && tcpHeader.GetFlags () & TcpHeader::ACK)
+  if (m_fecDecoder->IsFecHeader (tcpHeader) && (tcpHeader.GetFlags () & TcpHeader::ACK))
   {
     ReceivedAck(packet, tcpHeader);
     return;
@@ -1763,7 +1763,7 @@ TcpSocketBase::ReceivedAck (Ptr<Packet> packet, const TcpHeader& tcpHeader)
   std::cout << " IsFecHeader " << (m_fecDecoder->IsFecHeader (tcpHeader) ? "true" : "false");
   std::cout << std::endl;
   #endif
-  if (m_fecDecoder->IsFecHeader (tcpHeader) && packet->GetSize () == 0)
+  if (m_fecDecoder->IsFecHeader (tcpHeader))
   {
     return;
   }
