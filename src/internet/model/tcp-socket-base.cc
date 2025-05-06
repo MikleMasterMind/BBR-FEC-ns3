@@ -59,7 +59,7 @@
 #include <algorithm>
 
 // my code
-#define DEBUG
+// #define DEBUG
 
 namespace ns3 {
 
@@ -1478,16 +1478,16 @@ TcpSocketBase::ProcessEstablished (Ptr<Packet> packet, const TcpHeader& tcpHeade
 {
   NS_LOG_FUNCTION (this << tcpHeader);
 
-  // my code
-  #ifdef DEBUG
-  std::cout << "tcp-socket-base ProcessEstablished IsFecHeader " << (m_fecDecoder->IsFecHeader (tcpHeader) ? "true" : "false");
-  std::cout << std::endl;
-  #endif
-  if (m_fecDecoder->IsFecHeader (tcpHeader) && (tcpHeader.GetFlags () & TcpHeader::ACK))
-  {
-    ReceivedAck(packet, tcpHeader);
-    return;
-  }
+    // my code
+    #ifdef DEBUG
+    std::cout << "tcp-socket-base ProcessEstablished IsFecHeader " << (m_fecDecoder->IsFecHeader (tcpHeader) ? "true" : "false");
+    std::cout << std::endl;
+    #endif
+    if (m_fecDecoder->IsFecHeader (tcpHeader) && tcpHeader.GetFlags () & TcpHeader::ACK)
+    {
+      ReceivedAck(packet, tcpHeader);
+      return;
+    }
 
   // Extract the flags. PSH and URG are not honoured.
   uint8_t tcpflags = tcpHeader.GetFlags () & ~(TcpHeader::PSH | TcpHeader::URG | TcpHeader::CWR | TcpHeader::ECE);
@@ -3477,6 +3477,9 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
       SendEmptyFecPacket (TcpHeader::ACK);
     }
   }
+
+  // Put into Rx buffer
+  SequenceNumber32 expectedSeq = m_rxBuffer->NextRxSequence ();
   
   // my code 
   bool receivedSuccess = !m_fecDecoder->IsFecHeader(tcpHeader) && m_rxBuffer->Add (p, tcpHeader);
@@ -3509,9 +3512,6 @@ TcpSocketBase::ReceivedData (Ptr<Packet> p, const TcpHeader& tcpHeader)
   {
     return;
   }
-  
-  // Put into Rx buffer
-  SequenceNumber32 expectedSeq = m_rxBuffer->NextRxSequence ();
 
   // my code
   if (receivedSuccess)

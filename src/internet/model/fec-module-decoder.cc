@@ -2,7 +2,7 @@
 #include "ns3/core-module.h"
 
 #include <iostream>
-#define DEBUG
+// #define DEBUG
 
 namespace ns3 {
 

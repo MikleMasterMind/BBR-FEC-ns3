@@ -447,7 +447,7 @@ int main (int argc, char *argv[])
   // Set up the acutal simulation
   Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
 
-  std::string dir = "results/" + transport_prot.substr(5, transport_prot.length()) + "/" + currentTime + "-" + varstr + "/";
+  std::string dir = "results/" + transport_prot.substr(5, transport_prot.length()) + "/" + currentTime + "/";
   std::string dirToSave = "mkdir -p " + dir;
   system (dirToSave.c_str ());
   Simulator::Schedule (Seconds (start_time + 0.000001), &TraceCwnd, dir + "cwnd.data");
