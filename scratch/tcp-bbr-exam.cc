@@ -225,7 +225,7 @@ int main (int argc, char *argv[])
   std::string access_delay = "1ms";
   std::string transport_prot = "TcpBbr";
   TcpBbr::BbrVar variant = TcpBbr::BBR_V2;
-  std::string varstr = WhichVariant (variant) + "-";
+  std::string varstr = WhichVariant (variant);
   std::string scenario = "1";
   bool ecn = false;
   bool exp = false;
@@ -237,24 +237,24 @@ int main (int argc, char *argv[])
   int redundancy = 0;
   int fec_block_size = 10;
 
-  if (variant == TcpBbr::BBR_HSR)
-    {
-      varstr += std::to_string(lambda);
-    }
+  // if (variant == TcpBbr::BBR_HSR)
+  //   {
+  //     varstr += std::to_string(lambda);
+  //   }
 
-  if (variant == TcpBbr::BBR_V2)
-    {
-      if (ecn)
-        {
-          varstr += "ECN";
-        }
-      if (exp)
-        { 
-          varstr += "EXP";
-        }
-    }
+  // if (variant == TcpBbr::BBR_V2)
+  //   {
+  //     if (ecn)
+  //       {
+  //         varstr += "ECN";
+  //       }
+  //     if (exp)
+  //       { 
+  //         varstr += "EXP";
+  //       }
+  //   }
 
-  varstr += bandwidth + "-" + delay + "-" + std::to_string(size);
+  // varstr += bandwidth + "-" + delay + "-" + std::to_string(size);
 
   if (cubic)
     {
@@ -334,6 +334,7 @@ int main (int argc, char *argv[])
   Time access_d (access_delay);
   Time bottle_d (delay);
 
+  double buf_size_bdp = size;
   if (size != 0)
     {
       size *= (std::min (access_b, bottle_b).GetBitRate () / 8) * ((access_d + bottle_d) * 2).GetSeconds ();
@@ -493,11 +494,12 @@ int main (int argc, char *argv[])
   myfile << "data  " << std::to_string(data_mbytes) << "\n";
   myfile << "error_p " << error_p << "\n";
   myfile << "qSize " << size << "\n";
+  myfile << "qSize in BDP " << buf_size_bdp << "\n";
   myfile << "scenario " << scenario << "\n";
   myfile << "initialCwnd  " << initialCwnd << "\n";
   myfile << "minRto " << minRto << "\n";
   myfile << "transport_prot " << transport_prot << "\n";
-  myfile << "variant" << varstr << "\n";
+  myfile << "variant " << varstr << "\n";
   // my code
   myfile << "redundancy " << redundancy << "\n";
   myfile << "fec_block_size " << fec_block_size << "\n";
@@ -514,7 +516,6 @@ int main (int argc, char *argv[])
       Ptr <PacketSink> pktSink = DynamicCast <PacketSink> (app);
       totalRxBytesCounter += pktSink->GetTotalRx ();
     }
-
   std::cout << "\nGoodput Bytes/sec: "  << totalRxBytesCounter/Simulator::Now ().GetSeconds () << "\n";
 
   monitor->CheckForLostPackets ();
@@ -542,6 +543,7 @@ int main (int argc, char *argv[])
       file << "Jitter mean: " << i->second.jitterSum.GetSeconds () / i->second.rxPackets << "\n";
     }
 
+  file << "Simulation time: " << Simulator::Now ().GetSeconds () << '\n';
   file << "Goodput Bytes/Sec: " << totalRxBytesCounter/Simulator::Now ().GetSeconds ();
   file.close ();
   Simulator::Destroy ();

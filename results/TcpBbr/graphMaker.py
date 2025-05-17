@@ -133,7 +133,7 @@ def process_all_files(data_dir: Path, grid: np.ndarray) -> Dict[str, pd.DataFram
 
 def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path, config_text: str) -> None:
     """
-    Создает графики из обработанных данных
+    Создает графики из обработанных данных с текстом конфигурации слева
     
     Параметры:
         processed_data - словарь с обработанными DataFrame
@@ -143,33 +143,51 @@ def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path, conf
     plt.style.use('seaborn-v0_8')
     colors = plt.cm.tab10.colors
     
-    # Подготовка текста конфига для отображения
-    wrapped_text = textwrap.fill(config_text, width=80)
+    # Разделяем текст на строки с сохранением оригинальных переносов
+    config_lines = config_text.split('\n')
+    
+    # Форматируем каждую строку отдельно (перенос длинных строк)
+    formatted_lines = []
+    for line in config_lines:
+        formatted_lines.extend(textwrap.wrap(line, width=40))
+    
+    # Объединяем строки с сохранением оригинальных пустых строк
+    wrapped_text = '\n'.join(formatted_lines)
     
     for metric, df in processed_data.items():
         if df is None or df.empty:
             continue
             
-        fig, ax = plt.subplots(figsize=(12, 6))
+        # Создаем фигуру с двумя областями
+        fig = plt.figure(figsize=(16, 6))
         
-        ax.plot(df['time'], df['value'], 
-                color=colors[list(processed_data.keys()).index(metric) % 10],
-                linewidth=1.5, label=metric)
+        # Область для текста конфига (15% ширины)
+        ax_text = fig.add_axes([0.05, 0.05, 0.15, 0.9])
+        ax_text.axis('off')
         
-        ax.set_title(f"Метрика: {metric}", fontsize=12)
-        ax.set_xlabel("Время (секунды)", fontsize=10)
-        ax.set_ylabel(metric, fontsize=10)
-        ax.grid(True, linestyle=':', alpha=0.7)
-        ax.legend()
-        
-        # Добавляем текст конфига в нижней части графика
-        plt.figtext(0.5, 0.01, wrapped_text, 
-                   ha='center', fontsize=8, 
+        # Добавляем текст с сохранением переносов
+        ax_text.text(0, 1, wrapped_text, 
+                   fontsize=8, 
+                   va='top',
+                   ha='left',
+                   fontfamily='monospace',  # Используем моноширинный шрифт
                    bbox={'facecolor':'white', 'alpha':0.7, 'pad':5})
         
-        # Увеличиваем нижний отступ для текста
-        plt.subplots_adjust(bottom=0.2)
+        # Область для графика (80% ширины)
+        ax_plot = fig.add_axes([0.25, 0.1, 0.7, 0.85])
         
+        # Построение графика
+        ax_plot.plot(df['time'], df['value'], 
+                    color=colors[list(processed_data.keys()).index(metric) % 10],
+                    linewidth=1.5, label=metric)
+        
+        ax_plot.set_title(f"Метрика: {metric}", fontsize=12)
+        ax_plot.set_xlabel("Время (секунды)", fontsize=10)
+        ax_plot.set_ylabel(metric, fontsize=10)
+        ax_plot.grid(True, linestyle=':', alpha=0.7)
+        ax_plot.legend()
+        
+        # Сохранение графика
         plot_path = output_dir / f"{metric}.png"
         fig.savefig(plot_path, dpi=300, bbox_inches='tight')
         plt.close(fig)
@@ -177,7 +195,7 @@ def create_plots(processed_data: Dict[str, pd.DataFrame], output_dir: Path, conf
 
 def main(path: str):
     # Создаем регулярную сетку: 0-200 сек с шагом 1 мс (0.001 сек)
-    time_grid = np.arange(0, 20.31, 0.001)
+    time_grid = np.arange(0, 200.31, 0.001)
     
     # Путь к данным
     data_directory = Path(path)
@@ -202,8 +220,18 @@ def main(path: str):
     logger.info("Обработка завершена")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Использование: python script.py <путь_к_данным>")
-        sys.exit(1)
-    
-    main(sys.argv[1])
+    # if len(sys.argv) < 2:
+    #     print("Использование: python script.py <путь_к_данным>")
+    #     sys.exit(1)
+    with open('tmp_dirs.txt', 'r') as file:
+        done_dirs = [l.strip() for l in file.readlines()]
+    try:
+        while dir := input():
+            if dir not in done_dirs:
+                main(dir)
+                done_dirs.append(dir)
+    except EOFError:
+        pass
+    with open('tmp_dirs.txt', 'w') as file:
+        for dir in done_dirs:
+            print(dir, file=file)
