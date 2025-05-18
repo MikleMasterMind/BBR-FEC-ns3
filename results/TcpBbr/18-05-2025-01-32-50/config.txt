@@ -1,0 +1,17 @@
+nLeaf 1
+bandwidth 8Mbps
+delay  100ms
+access_bandwidth 40Mbps
+access_delay 1ms
+mtu 750
+data  0.000000
+error_p 0.05
+qSize 606000
+qSize in BDP 3
+scenario 1
+initialCwnd  10
+minRto 0.2
+transport_prot ns3::TcpBbr
+variant BBR_V2
+redundancy 2
+fec_block_size 88

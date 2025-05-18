@@ -37,6 +37,7 @@ Congfigurable Variables:
 ``vegas`` - Enable Vegas flow  
 ``redundancy`` - Amount of redundant packets in one fec block
 ``fec_block_size`` - Amount of all packets in one fec block
+``mtu`` - mtu size in bytes
 
 example: ``./waf --run "scratch/tcp-bbr-exam --nLeaf=1 --bandwidth=10Mbps --delay=10ms --qSize=20 --redundancy=2 --fec_block_size=10"``
 

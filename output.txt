@@ -8059,3 +8059,4002 @@ Goodput Bytes/sec: 1728.76
 Flow 1 (10.1.1.1 -> 10.2.1.1)
 Flow 2 (10.2.1.1 -> 10.1.1.1)
  
+               Local time: Sat 2025-05-17 19:46:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Interrupted 
+ 
+               Local time: Sat 2025-05-17 19:46:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Interrupted 
+ 
+               Local time: Sat 2025-05-17 19:46:37 MSK
+               Local time: Sat 2025-05-17 19:47:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.045s)
+
+Goodput Bytes/sec: 40438.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:47:54 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.448s)
+
+Goodput Bytes/sec: 86288.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:49:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.381s)
+
+Goodput Bytes/sec: 7809.95
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:49:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.458s)
+
+Goodput Bytes/sec: 4569.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:49:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.464s)
+
+Goodput Bytes/sec: 40317.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:50:25 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.452s)
+
+Goodput Bytes/sec: 36117.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:51:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.355s)
+
+Goodput Bytes/sec: 15166.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:51:34 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.422s)
+
+Goodput Bytes/sec: 1080.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:51:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.436s)
+
+Goodput Bytes/sec: 40438.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:52:26 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.146s)
+
+Goodput Bytes/sec: 86288.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:53:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.459s)
+
+Goodput Bytes/sec: 7809.95
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:53:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.460s)
+
+Goodput Bytes/sec: 4569.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:54:11 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.437s)
+
+Goodput Bytes/sec: 40317.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:54:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.396s)
+
+Goodput Bytes/sec: 36117.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:55:39 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.347s)
+
+Goodput Bytes/sec: 15166.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:56:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.389s)
+
+Goodput Bytes/sec: 1080.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:56:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.575s)
+
+Goodput Bytes/sec: 40438.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:56:57 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.416s)
+
+Goodput Bytes/sec: 86288.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:58:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.311s)
+
+Goodput Bytes/sec: 7809.95
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:58:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.530s)
+
+Goodput Bytes/sec: 4569.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:58:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.418s)
+
+Goodput Bytes/sec: 40317.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 19:59:25 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.395s)
+
+Goodput Bytes/sec: 36117.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:00:10 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.755s)
+
+Goodput Bytes/sec: 15166.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:00:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.438s)
+
+Goodput Bytes/sec: 1080.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:00:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.472s)
+
+Goodput Bytes/sec: 40555.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:01:27 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.412s)
+
+Goodput Bytes/sec: 60136.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:02:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.376s)
+
+Goodput Bytes/sec: 7809.95
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:02:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.410s)
+
+Goodput Bytes/sec: 4569.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:02:54 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.466s)
+
+Goodput Bytes/sec: 40513.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:03:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.505s)
+
+Goodput Bytes/sec: 101950
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:05:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.426s)
+
+Goodput Bytes/sec: 4498.91
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:05:34 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.343s)
+
+Goodput Bytes/sec: 2165.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:05:48 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.481s)
+
+Goodput Bytes/sec: 40555.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:06:25 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.517s)
+
+Goodput Bytes/sec: 60136.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:07:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.354s)
+
+Goodput Bytes/sec: 7809.95
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:07:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.461s)
+
+Goodput Bytes/sec: 4569.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:07:49 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.212s)
+
+Goodput Bytes/sec: 40513.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:08:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.346s)
+
+Goodput Bytes/sec: 101950
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:10:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (16.790s)
+
+Goodput Bytes/sec: 4498.91
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:10:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.427s)
+
+Goodput Bytes/sec: 2165.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:10:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.467s)
+
+Goodput Bytes/sec: 40635.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:11:30 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.368s)
+
+Goodput Bytes/sec: 52892.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:12:17 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.383s)
+
+Goodput Bytes/sec: 13632.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:12:39 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.484s)
+
+Goodput Bytes/sec: 4569.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:12:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.478s)
+
+Goodput Bytes/sec: 40635.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:13:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.451s)
+
+Goodput Bytes/sec: 48987.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:14:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.456s)
+
+Goodput Bytes/sec: 10948
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:14:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.382s)
+
+Goodput Bytes/sec: 8586.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:15:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.501s)
+
+Goodput Bytes/sec: 20829.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:15:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.380s)
+
+Goodput Bytes/sec: 23327
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:16:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.492s)
+
+Goodput Bytes/sec: 3666.47
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:16:28 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.366s)
+
+Goodput Bytes/sec: 7290.85
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:16:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.368s)
+
+Goodput Bytes/sec: 20829.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:17:14 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.376s)
+
+Goodput Bytes/sec: 2221.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:17:29 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.486s)
+
+Goodput Bytes/sec: 1739.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:17:43 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.429s)
+
+Goodput Bytes/sec: 3540.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:17:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.364s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:18:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.356s)
+
+Goodput Bytes/sec: 27241.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:18:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.403s)
+
+Goodput Bytes/sec: 3666.47
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:19:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.472s)
+
+Goodput Bytes/sec: 7290.85
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:19:26 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.404s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:19:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.376s)
+
+Goodput Bytes/sec: 2221.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:20:10 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.585s)
+
+Goodput Bytes/sec: 1744.38
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:20:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.462s)
+
+Goodput Bytes/sec: 3540.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:20:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.421s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:21:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.401s)
+
+Goodput Bytes/sec: 27241.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:21:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.470s)
+
+Goodput Bytes/sec: 3666.47
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:21:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.417s)
+
+Goodput Bytes/sec: 7290.85
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:22:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.408s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:22:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.425s)
+
+Goodput Bytes/sec: 2221.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:22:51 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.541s)
+
+Goodput Bytes/sec: 1744.38
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:23:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.423s)
+
+Goodput Bytes/sec: 3540.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:23:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.355s)
+
+Goodput Bytes/sec: 40756.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:23:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.569s)
+
+Goodput Bytes/sec: 78744.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:25:04 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.352s)
+
+Goodput Bytes/sec: 23093.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:25:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.524s)
+
+Goodput Bytes/sec: 13627.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:25:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.380s)
+
+Goodput Bytes/sec: 40756.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:26:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.516s)
+
+Goodput Bytes/sec: 43455.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:27:31 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.566s)
+
+Goodput Bytes/sec: 2221.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:27:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.466s)
+
+Goodput Bytes/sec: 2226.07
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:40:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.416s)
+
+Goodput Bytes/sec: 40401.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:41:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.435s)
+
+Goodput Bytes/sec: 25684
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:41:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.510s)
+
+Goodput Bytes/sec: 2899.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:41:49 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.486s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:42:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.488s)
+
+Goodput Bytes/sec: 40377.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:42:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.481s)
+
+Goodput Bytes/sec: 63602
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:43:29 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.505s)
+
+Goodput Bytes/sec: 6654.83
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:43:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.434s)
+
+Goodput Bytes/sec: 1187.86
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:43:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.377s)
+
+Goodput Bytes/sec: 40102
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:44:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.367s)
+
+Goodput Bytes/sec: 27063.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:45:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.474s)
+
+Goodput Bytes/sec: 4461.49
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:45:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.552s)
+
+Goodput Bytes/sec: 5972.04
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:45:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.421s)
+
+Goodput Bytes/sec: 40298.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:46:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.450s)
+
+Goodput Bytes/sec: 25571.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:46:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.473s)
+
+Goodput Bytes/sec: 5448.26
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:47:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.401s)
+
+Goodput Bytes/sec: 2820
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:47:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.578s)
+
+Goodput Bytes/sec: 40401.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:47:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.478s)
+
+Goodput Bytes/sec: 25684
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:48:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.425s)
+
+Goodput Bytes/sec: 2899.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:48:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.466s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:48:48 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.673s)
+
+Goodput Bytes/sec: 40377.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:49:25 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.398s)
+
+Goodput Bytes/sec: 63602
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:50:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.385s)
+
+Goodput Bytes/sec: 6654.83
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:50:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.393s)
+
+Goodput Bytes/sec: 1187.86
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:50:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.486s)
+
+Goodput Bytes/sec: 40102
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:51:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.388s)
+
+Goodput Bytes/sec: 27063.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:51:52 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.430s)
+
+Goodput Bytes/sec: 4461.49
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:52:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.380s)
+
+Goodput Bytes/sec: 5972.04
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:52:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.394s)
+
+Goodput Bytes/sec: 40298.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:53:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.479s)
+
+Goodput Bytes/sec: 25571.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:53:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.402s)
+
+Goodput Bytes/sec: 5448.26
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:53:49 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.434s)
+
+Goodput Bytes/sec: 2820
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:54:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.584s)
+
+Goodput Bytes/sec: 40401.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:54:39 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.446s)
+
+Goodput Bytes/sec: 25684
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:55:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.431s)
+
+Goodput Bytes/sec: 2899.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:55:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.457s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:55:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.534s)
+
+Goodput Bytes/sec: 40377.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:56:11 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.438s)
+
+Goodput Bytes/sec: 63602
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:57:01 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.464s)
+
+Goodput Bytes/sec: 6654.83
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:57:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.459s)
+
+Goodput Bytes/sec: 1187.86
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:57:31 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.439s)
+
+Goodput Bytes/sec: 40102
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:58:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.399s)
+
+Goodput Bytes/sec: 27063.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:58:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.444s)
+
+Goodput Bytes/sec: 4461.49
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:58:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.471s)
+
+Goodput Bytes/sec: 5972.04
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:59:10 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.531s)
+
+Goodput Bytes/sec: 40298.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 20:59:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.477s)
+
+Goodput Bytes/sec: 25571.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:00:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.536s)
+
+Goodput Bytes/sec: 5448.26
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:00:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.433s)
+
+Goodput Bytes/sec: 2820
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:00:52 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.584s)
+
+Goodput Bytes/sec: 40550.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:01:27 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.445s)
+
+Goodput Bytes/sec: 57863.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:02:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.454s)
+
+Goodput Bytes/sec: 2899.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:02:28 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.546s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:02:41 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.512s)
+
+Goodput Bytes/sec: 40513.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:03:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.432s)
+
+Goodput Bytes/sec: 75415.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:04:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.499s)
+
+Goodput Bytes/sec: 3002.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:04:30 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.515s)
+
+Goodput Bytes/sec: 3184.78
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:04:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.488s)
+
+Goodput Bytes/sec: 40298.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:05:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.521s)
+
+Goodput Bytes/sec: 61034.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:06:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.489s)
+
+Goodput Bytes/sec: 1678.91
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:06:29 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.479s)
+
+Goodput Bytes/sec: 1066.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:06:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.468s)
+
+Goodput Bytes/sec: 40457.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:07:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.408s)
+
+Goodput Bytes/sec: 3044.48
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:07:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.709s)
+
+Goodput Bytes/sec: 2922.89
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:07:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.503s)
+
+Goodput Bytes/sec: 2277.51
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:08:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.390s)
+
+Goodput Bytes/sec: 40550.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:08:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.474s)
+
+Goodput Bytes/sec: 57863.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:09:28 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.480s)
+
+Goodput Bytes/sec: 2899.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:09:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.407s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:09:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.566s)
+
+Goodput Bytes/sec: 40513.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:10:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.415s)
+
+Goodput Bytes/sec: 75415.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:11:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.294s)
+
+Goodput Bytes/sec: 3002.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:11:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.302s)
+
+Goodput Bytes/sec: 3184.78
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sat 2025-05-17 21:12:00 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.372s)
+
+Goodput Bytes/sec: 40298.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:48:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (12.419s)
+
+Goodput Bytes/sec: 61034.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:49:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (18.868s)
+
+Goodput Bytes/sec: 1678.91
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:49:43 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.573s)
+
+Goodput Bytes/sec: 1066.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:49:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.437s)
+
+Goodput Bytes/sec: 40457.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:50:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.460s)
+
+Goodput Bytes/sec: 3044.48
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:50:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.477s)
+
+Goodput Bytes/sec: 2922.89
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:51:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.191s)
+
+Goodput Bytes/sec: 2277.51
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:51:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.179s)
+
+Goodput Bytes/sec: 40635.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:51:58 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.312s)
+
+Goodput Bytes/sec: 14179.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:52:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.466s)
+
+Goodput Bytes/sec: 2899.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:52:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.905s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:52:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.649s)
+
+Goodput Bytes/sec: 40616.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:53:30 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.904s)
+
+Goodput Bytes/sec: 116209
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:55:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.603s)
+
+Goodput Bytes/sec: 3002.39
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:55:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.566s)
+
+Goodput Bytes/sec: 3184.78
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:55:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.602s)
+
+Goodput Bytes/sec: 40452.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:56:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.612s)
+
+Goodput Bytes/sec: 31085.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:56:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.547s)
+
+Goodput Bytes/sec: 3329.75
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:57:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.676s)
+
+Goodput Bytes/sec: 1501.19
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:57:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.551s)
+
+Goodput Bytes/sec: 40560.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:57:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.562s)
+
+Goodput Bytes/sec: 10807.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:58:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.907s)
+
+Goodput Bytes/sec: 3783.38
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:58:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.688s)
+
+Goodput Bytes/sec: 5555.82
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:58:49 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.614s)
+
+Goodput Bytes/sec: 20829.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:59:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.581s)
+
+Goodput Bytes/sec: 1557.31
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:59:26 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.518s)
+
+Goodput Bytes/sec: 3353.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:59:41 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.638s)
+
+Goodput Bytes/sec: 1267.36
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 11:59:54 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.599s)
+
+Goodput Bytes/sec: 20829.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:00:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.653s)
+
+Goodput Bytes/sec: 3395.22
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:00:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.495s)
+
+Goodput Bytes/sec: 8553.53
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:00:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.572s)
+
+Goodput Bytes/sec: 1412.34
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:01:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.397s)
+
+Goodput Bytes/sec: 20829.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:01:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.570s)
+
+Goodput Bytes/sec: 3301.69
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:01:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.581s)
+
+Goodput Bytes/sec: 2946.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:02:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.589s)
+
+Goodput Bytes/sec: 1131.74
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:02:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.482s)
+
+Goodput Bytes/sec: 20843.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:02:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.537s)
+
+Goodput Bytes/sec: 1262.69
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:02:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.570s)
+
+Goodput Bytes/sec: 2637.61
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:03:10 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.775s)
+
+Goodput Bytes/sec: 940
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:03:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.534s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:03:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.456s)
+
+Goodput Bytes/sec: 1557.31
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:04:01 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.550s)
+
+Goodput Bytes/sec: 3353.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:04:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.625s)
+
+Goodput Bytes/sec: 1267.36
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:04:29 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.571s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:04:54 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.451s)
+
+Goodput Bytes/sec: 3395.22
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:05:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.694s)
+
+Goodput Bytes/sec: 8553.53
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:05:27 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.488s)
+
+Goodput Bytes/sec: 1533.93
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:05:41 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.811s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:06:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.669s)
+
+Goodput Bytes/sec: 3301.69
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:06:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.666s)
+
+Goodput Bytes/sec: 3133.33
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:06:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.445s)
+
+Goodput Bytes/sec: 1131.74
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:06:49 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.572s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:07:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.566s)
+
+Goodput Bytes/sec: 2530.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:07:30 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.566s)
+
+Goodput Bytes/sec: 3563.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:07:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.505s)
+
+Goodput Bytes/sec: 940
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:07:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.606s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:08:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.512s)
+
+Goodput Bytes/sec: 1557.31
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:08:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.461s)
+
+Goodput Bytes/sec: 3353.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:08:51 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.556s)
+
+Goodput Bytes/sec: 1267.36
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:09:04 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.684s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:09:29 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.547s)
+
+Goodput Bytes/sec: 3395.22
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:09:44 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.567s)
+
+Goodput Bytes/sec: 8553.53
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:10:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.557s)
+
+Goodput Bytes/sec: 1533.93
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:10:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.447s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:10:41 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.616s)
+
+Goodput Bytes/sec: 3301.69
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:10:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.551s)
+
+Goodput Bytes/sec: 3133.33
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:11:11 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.565s)
+
+Goodput Bytes/sec: 1131.74
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:11:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.495s)
+
+Goodput Bytes/sec: 20862.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:11:51 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.523s)
+
+Goodput Bytes/sec: 2530.05
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:12:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.671s)
+
+Goodput Bytes/sec: 3563.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:12:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.526s)
+
+Goodput Bytes/sec: 940
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:12:34 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.625s)
+
+Goodput Bytes/sec: 40756.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:13:09 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.529s)
+
+Goodput Bytes/sec: 24814.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:13:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.497s)
+
+Goodput Bytes/sec: 6074.93
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:13:52 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.531s)
+
+Goodput Bytes/sec: 1805.17
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:14:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.434s)
+
+Goodput Bytes/sec: 40756.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:14:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.443s)
+
+Goodput Bytes/sec: 22779.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:15:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.548s)
+
+Goodput Bytes/sec: 3890.95
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:15:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.562s)
+
+Goodput Bytes/sec: 8053.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:15:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.430s)
+
+Goodput Bytes/sec: 40705.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:16:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.542s)
+
+Goodput Bytes/sec: 50535.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:17:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.569s)
+
+Goodput Bytes/sec: 11280
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:17:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.548s)
+
+Goodput Bytes/sec: 2258.81
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:17:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.560s)
+
+Goodput Bytes/sec: 40719.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:18:17 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.702s)
+
+Goodput Bytes/sec: 61572.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:19:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.590s)
+
+Goodput Bytes/sec: 6131.04
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:19:30 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.560s)
+
+Goodput Bytes/sec: 1215.92
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:50:52 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.536s)
+
+Goodput Bytes/sec: 29827.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:51:25 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.539s)
+
+Goodput Bytes/sec: 6584.18
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:51:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.459s)
+
+Goodput Bytes/sec: 9920.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:52:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.448s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:52:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.442s)
+
+Goodput Bytes/sec: 29827.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:52:48 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.414s)
+
+Goodput Bytes/sec: 7205.52
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:53:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.451s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:53:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.400s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:53:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.459s)
+
+Goodput Bytes/sec: 29807.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:54:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.439s)
+
+Goodput Bytes/sec: 11403.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:54:27 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.494s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:54:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.501s)
+
+Goodput Bytes/sec: 1266.72
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:54:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.405s)
+
+Goodput Bytes/sec: 29814.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:55:28 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.476s)
+
+Goodput Bytes/sec: 6893.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:55:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.450s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:55:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.418s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:56:12 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.460s)
+
+Goodput Bytes/sec: 29827.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:56:43 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.476s)
+
+Goodput Bytes/sec: 6584.18
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:57:01 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.393s)
+
+Goodput Bytes/sec: 9920.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:57:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.536s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:57:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.428s)
+
+Goodput Bytes/sec: 29827.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:58:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.400s)
+
+Goodput Bytes/sec: 7205.52
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:58:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.452s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:58:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.415s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:58:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.436s)
+
+Goodput Bytes/sec: 29807.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:59:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.498s)
+
+Goodput Bytes/sec: 11403.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:59:44 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.489s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 12:59:59 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.487s)
+
+Goodput Bytes/sec: 1266.72
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:00:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.481s)
+
+Goodput Bytes/sec: 29814.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:00:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.425s)
+
+Goodput Bytes/sec: 6893.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:01:04 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.432s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:01:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.425s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:01:31 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.412s)
+
+Goodput Bytes/sec: 29827.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:02:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.475s)
+
+Goodput Bytes/sec: 6584.18
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:02:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.432s)
+
+Goodput Bytes/sec: 9920.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:02:39 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.409s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:02:52 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.451s)
+
+Goodput Bytes/sec: 29827.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:03:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.522s)
+
+Goodput Bytes/sec: 7205.52
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:03:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.458s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:03:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.564s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:04:09 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.389s)
+
+Goodput Bytes/sec: 29807.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:04:41 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.550s)
+
+Goodput Bytes/sec: 11403.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:05:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.187s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:05:17 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.569s)
+
+Goodput Bytes/sec: 1266.72
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:05:30 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.466s)
+
+Goodput Bytes/sec: 29814.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:06:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.445s)
+
+Goodput Bytes/sec: 6893.13
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:06:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.392s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:06:34 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.556s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:06:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.432s)
+
+Goodput Bytes/sec: 29882.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:07:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.399s)
+
+Goodput Bytes/sec: 6148.21
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:07:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.398s)
+
+Goodput Bytes/sec: 7346.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:07:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.466s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:08:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.430s)
+
+Goodput Bytes/sec: 29882.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:08:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.399s)
+
+Goodput Bytes/sec: 23281.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:09:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.422s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:09:20 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.439s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:09:34 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.510s)
+
+Goodput Bytes/sec: 29872.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:10:06 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.428s)
+
+Goodput Bytes/sec: 7033.88
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:10:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.452s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:10:39 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.564s)
+
+Goodput Bytes/sec: 2461.34
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:10:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.467s)
+
+Goodput Bytes/sec: 29869.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:11:27 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.569s)
+
+Goodput Bytes/sec: 10957.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:11:48 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.513s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:12:01 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.425s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:12:14 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.461s)
+
+Goodput Bytes/sec: 29882.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:12:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.183s)
+
+Goodput Bytes/sec: 6148.21
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:13:04 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.689s)
+
+Goodput Bytes/sec: 7346.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:13:22 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.409s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:13:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.415s)
+
+Goodput Bytes/sec: 29882.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:14:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.481s)
+
+Goodput Bytes/sec: 23281.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:14:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.398s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:14:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.503s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:15:04 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.478s)
+
+Goodput Bytes/sec: 29872.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:15:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.458s)
+
+Goodput Bytes/sec: 7033.88
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:15:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.404s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:16:10 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.490s)
+
+Goodput Bytes/sec: 2461.34
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:16:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.517s)
+
+Goodput Bytes/sec: 29869.1
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:16:57 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.498s)
+
+Goodput Bytes/sec: 10957.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:17:17 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.470s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:17:31 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.407s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:17:43 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.523s)
+
+Goodput Bytes/sec: 29920.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:18:16 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.114s)
+
+Goodput Bytes/sec: 6151.64
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:18:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.544s)
+
+Goodput Bytes/sec: 21228.7
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:19:01 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.373s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:19:14 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.333s)
+
+Goodput Bytes/sec: 29920.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:19:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.492s)
+
+Goodput Bytes/sec: 12622.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:20:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.463s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:20:21 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.403s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:20:35 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.362s)
+
+Goodput Bytes/sec: 29917.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:21:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.340s)
+
+Goodput Bytes/sec: 7033.88
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:21:25 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.395s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:21:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.355s)
+
+Goodput Bytes/sec: 2461.34
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:21:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.369s)
+
+Goodput Bytes/sec: 29917.2
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:22:29 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.420s)
+
+Goodput Bytes/sec: 11280.3
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:22:50 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.333s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:23:03 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.343s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:23:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.360s)
+
+Goodput Bytes/sec: 15327.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:23:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.391s)
+
+Goodput Bytes/sec: 3086.12
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:23:53 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.378s)
+
+Goodput Bytes/sec: 635.075
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:24:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.462s)
+
+Goodput Bytes/sec: 480.597
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:24:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.643s)
+
+Goodput Bytes/sec: 15327.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:24:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.679s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:24:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.810s)
+
+Goodput Bytes/sec: 638.507
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:25:08 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.564s)
+
+Goodput Bytes/sec: 988.657
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:25:22 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.368s)
+
+Goodput Bytes/sec: 15327.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:25:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.999s)
+
+Goodput Bytes/sec: 1520.75
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:25:58 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.572s)
+
+Goodput Bytes/sec: 2560.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:26:13 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.677s)
+
+Goodput Bytes/sec: 1163.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:26:26 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.024s)
+
+Goodput Bytes/sec: 15327.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:26:51 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (10.081s)
+
+Goodput Bytes/sec: 1565.37
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:27:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.759s)
+ 
+               Local time: Sun 2025-05-18 13:27:18 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.920s)
+
+Goodput Bytes/sec: 484.03
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:27:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.664s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:27:56 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.865s)
+
+Goodput Bytes/sec: 3086.12
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:28:11 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.731s)
+
+Goodput Bytes/sec: 635.075
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:28:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.760s)
+
+Goodput Bytes/sec: 480.597
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:28:37 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.646s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:29:01 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.779s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:29:15 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.822s)
+
+Goodput Bytes/sec: 638.507
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:29:28 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.710s)
+
+Goodput Bytes/sec: 988.657
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:29:42 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.976s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:30:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.504s)
+
+Goodput Bytes/sec: 1520.75
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:30:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.507s)
+
+Goodput Bytes/sec: 2560.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:30:33 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.463s)
+
+Goodput Bytes/sec: 1163.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:30:47 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.420s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:31:10 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.471s)
+
+Goodput Bytes/sec: 1565.37
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:31:23 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.444s)
+ 
+               Local time: Sun 2025-05-18 13:31:36 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.480s)
+
+Goodput Bytes/sec: 484.03
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:31:49 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.449s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:32:12 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.417s)
+
+Goodput Bytes/sec: 3086.12
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:32:26 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.402s)
+
+Goodput Bytes/sec: 635.075
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:32:39 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.474s)
+
+Goodput Bytes/sec: 480.597
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:32:52 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.455s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:33:14 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.410s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:33:28 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.457s)
+
+Goodput Bytes/sec: 638.507
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:33:40 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.426s)
+
+Goodput Bytes/sec: 988.657
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:33:54 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.449s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:34:17 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.776s)
+
+Goodput Bytes/sec: 1520.75
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:34:31 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.776s)
+
+Goodput Bytes/sec: 2560.9
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:34:46 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.578s)
+
+Goodput Bytes/sec: 1163.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:35:00 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.593s)
+
+Goodput Bytes/sec: 15331
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:35:24 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.694s)
+
+Goodput Bytes/sec: 1565.37
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:35:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.621s)
+ 
+               Local time: Sun 2025-05-18 13:35:51 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.667s)
+
+Goodput Bytes/sec: 484.03
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:36:04 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.657s)
+
+Goodput Bytes/sec: 30006.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:36:38 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.700s)
+
+Goodput Bytes/sec: 6151.64
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:36:55 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.683s)
+
+Goodput Bytes/sec: 15241.8
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:37:19 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.681s)
+
+Goodput Bytes/sec: 477.164
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:37:32 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.684s)
+
+Goodput Bytes/sec: 30006.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:38:07 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.950s)
+
+Goodput Bytes/sec: 35447.5
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:38:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.429s)
+
+Goodput Bytes/sec: 1043.58
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:38:58 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.435s)
+
+Goodput Bytes/sec: 1393.73
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:39:12 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.602s)
+
+Goodput Bytes/sec: 30006.4
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:39:45 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.290s)
+
+Goodput Bytes/sec: 7033.88
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:40:02 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.571s)
+
+Goodput Bytes/sec: 2976.27
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:40:17 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.539s)
+
+Goodput Bytes/sec: 2015.07
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:40:31 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.592s)
+
+Goodput Bytes/sec: 29999.6
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:41:05 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.369s)
+
+Goodput Bytes/sec: 24404
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:41:34 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.403s)
+
+Goodput Bytes/sec: 1019.55
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 
+               Local time: Sun 2025-05-18 13:41:48 MSK
+Waf: Entering directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Waf: Leaving directory `/mnt/c/Users/Michael/3_curs/coursework/BBR-FEC-ns3/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (9.452s)
+
+Goodput Bytes/sec: 418.806
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+ 

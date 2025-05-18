@@ -1,0 +1,30 @@
+Flow 1 (10.1.1.1 -> 10.2.1.1)
+Tx Packets: 1981
+Tx Bytes: 1965700
+Rx Packets: 1891
+Rx Bytes: 1876564
+Delay Sum: +100697611478.0ns
+Jitter Sum: +225688565.0ns
+Last Delay: +53192800.0ns
+Lost Packets: 90
+Times Forwarded: 4074
+Throughput: 0.486082 Mbps
+Packet loss Ratio: 0.0454316
+Delay mean: 0.053251
+Jitter mean: 0.000119349
+Flow 2 (10.2.1.1 -> 10.1.1.1)
+Tx Packets: 1621
+Tx Bytes: 91544
+Rx Packets: 1555
+Rx Bytes: 87888
+Delay Sum: +80969195243.0ns
+Jitter Sum: +4574071.0ns
+Last Delay: +52064798.0ns
+Lost Packets: 66
+Times Forwarded: 3110
+Throughput: 0.0398613 Mbps
+Packet loss Ratio: 0.0407156
+Delay mean: 0.0520702
+Jitter mean: 2.94152e-06
+Simulation time: 201
+Goodput Bytes/Sec: 8053.13

@@ -1,17 +1,99 @@
 #!/bin/bash
 
-REDUNDANCY='1'
-BANDWIDTH='10Mbps'
+BLOCK_SIZE='88'
+BANDWIDTH='5Mbps'
 DELAY='50ms'
-BUFFER='3'
 N_LEAF='1'
-for BLOCK_SIZE in '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20'
+MTU='750'
+for BUFFER in '2' '3' '4'
+do
+    for REDUNDANCY in '2' '3' '4' '5'
+    do
+        for ERROR_P in '0.00' '0.01' '0.03' '0.05'
+        do
+            timedatectl | grep Local >> output.txt
+
+            ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P --mtu=$MTU" >> output.txt
+
+            echo " " >> output.txt
+        done
+    done
+done
+
+BANDWIDTH='6Mbps'
+for BUFFER in '2' '3'
+do
+    for REDUNDANCY in '2' '3' '4' '5'
+    do
+        for ERROR_P in '0.00' '0.01' '0.03' '0.05'
+        do
+            timedatectl | grep Local >> output.txt
+
+            ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P --mtu=$MTU" >> output.txt
+
+            echo " " >> output.txt
+        done
+    done
+done
+
+BANDWIDTH='7Mbps'
+BUFFER='3'
+for REDUNDANCY in '2' '3' '4' '5'
 do
     for ERROR_P in '0.00' '0.01' '0.03' '0.05'
     do
         timedatectl | grep Local >> output.txt
 
-        ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P" >> output.txt
+        ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P --mtu=$MTU" >> output.txt
+
+        echo " " >> output.txt
+    done
+done
+
+BANDWIDTH='7Mbps'
+DELAY='100ms'
+BUFFER='3'
+for REDUNDANCY in '2' '3' '4' '5'
+do
+    for ERROR_P in '0.00' '0.01' '0.03' '0.05'
+    do
+        timedatectl | grep Local >> output.txt
+
+        ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P --mtu=$MTU" >> output.txt
+
+        echo " " >> output.txt
+    done
+done
+
+
+BANDWIDTH='8Mbps'
+DELAY='100ms'
+for BUFFER in '2' '3'
+do
+    for REDUNDANCY in '2' '3' '4' '5'
+    do
+        for ERROR_P in '0.00' '0.01' '0.03' '0.05'
+        do
+            timedatectl | grep Local >> output.txt
+
+            ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P --mtu=$MTU" >> output.txt
+
+            echo " " >> output.txt
+        done
+    done
+done
+
+
+BANDWIDTH='10Mbps'
+DELAY='50ms'
+BUFFER='3'
+for REDUNDANCY in '2' '3' '4' '5'
+do
+    for ERROR_P in '0.00' '0.01' '0.03' '0.05'
+    do
+        timedatectl | grep Local >> output.txt
+
+        ./waf --run "scratch/tcp-bbr-exam --nLeaf=$N_LEAF --bandwidth=$BANDWIDTH --delay=$DELAY --qSize=$BUFFER --redundancy=$REDUNDANCY --fec_block_size=$BLOCK_SIZE --error_p=$ERROR_P --mtu=$MTU" >> output.txt
 
         echo " " >> output.txt
     done
